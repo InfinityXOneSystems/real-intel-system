@@ -1,0 +1,1318 @@
+[
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\sync_log.txt",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\ci",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\experiments",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\frontend",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gcp",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\github",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\governance",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\infrastructure",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\modules",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\policies",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\prompts",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\runbooks",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\security",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\sync",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.env.example",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.env.master.sample",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.env.production.sample",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.gitignore",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\100-PERCENT-SYNCHRONIZED-UNIFIED-COLLABORATION-BRAIN.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\99-TO-100-AUTONOMOUS-VERIFICATION-CHECKLIST.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\ACTIVATION-COMPLETE-100-PERCENT.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\auto-orchestrator.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\AUTONOMOUS-SYSTEM-FINAL-EXECUTIVE-SUMMARY.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\DEPLOYMENT_SUMMARY.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docker-compose.fragment.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\ECHO-CONFIRMATION-MVS-ACTIVATED.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\eslint.config.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\HIL-EXECUTION-MANDATE.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\MASTER-ACTIVATION-DEPLOYED.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\package-lock.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\package.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-COMM-STORAGE.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-PROMPT-SYSTEM.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-VDB-INIT-EXECUTIVE-BRIEF.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-VDB-INIT.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-WORKSPACE-INTEGRATION-EXECUTION-COMPLETE.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-WORKSPACE-INTEGRATION-FINAL-REPORT.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-WORKSPACE-INTEGRATION-IMPLEMENTATION-MANIFEST.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SGP-WORKSPACE-INTEGRATION.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\start-auto.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\start-auto.sh",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\SYSTEM-STATUS-DASHBOARD.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\tsconfig.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\unified_schema.py",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\dependabot.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\autonomous-sync.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ci.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\codeql.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\deploy-control-plane.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ephemeral-seed-debug.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ephemeral-seed-simple.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ephemeral-seed-stable-trigger.txt",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ephemeral-seed-stable.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ephemeral-seed-vault-v2.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ephemeral-seed-vault.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\ephemeral-start-vault.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\policy-check.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\tests.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\.github\\workflows\\trivy.yml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\modules",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\runbooks",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\scripts",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\orchestrator.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\modules\\audit.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\modules\\execute.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\modules\\index.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\modules\\ingest.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\modules\\reason.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\modules\\sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\runbooks\\automation.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\scripts\\start.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\automation\\scripts\\start.sh",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\ci\\secret-scan-policy.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\src",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\Dockerfile",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\package.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\tsconfig.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\src\\voice",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\src\\calendar_connector.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\src\\docs_connector.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\src\\gmail_connector.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\src\\main.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\communications\\src\\voice\\voice_service.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane\\src",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane\\Dockerfile",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane\\package.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane\\start-dev.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane\\tsconfig.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane\\src\\github.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\control-plane\\src\\server.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\automation",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\evaluation",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\ops",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\taxonomy",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\ARCHITECTURE.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\DEPLOYMENT.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\GITHUB_COPILOT_MOBILE_SETUP.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\SECRETS_IMPLEMENTATION_STATUS.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\SECRETS_MANAGEMENT_GUIDE.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\automation\\observability.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\automation\\pipeline-plan.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\automation\\taxonomy-reference.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\evaluation\\system-evaluation-report.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\ops\\runbooks",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\ops\\sop",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\ops\\runbooks\\onboarding.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\ops\\sop\\example-sop.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\docs\\taxonomy\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\experiments\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\frontend\\index.html",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway\\src",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway\\Dockerfile",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway\\package.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway\\tsconfig.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway\\src\\api",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway\\src\\main.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gateway\\src\\api\\status.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gcp\\functions",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gcp\\pubsub",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gcp\\functions\\ai-event-handler.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\gcp\\pubsub\\ai-topic.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\github\\app-manifest.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\github\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\github\\verify_github_app.py",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\governance\\SGP-VDB-INIT.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane\\templates",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane\\Chart.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane\\values.production.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane\\values.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane\\templates\\deployment.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane\\templates\\service.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\helm\\control-plane\\templates\\servicemonitor.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\infrastructure\\aws",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\infrastructure\\aws\\main.tf",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\infrastructure\\aws\\outputs.tf",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\infrastructure\\aws\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\infrastructure\\aws\\variables.tf",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\arc",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\runners",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\secrets",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\values",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\bootstrap.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\bootstrap.sh",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\deploy-local.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\arc\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\runners\\arc-runner-deployment.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\runners\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\secrets\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\values\\arc-values.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\values\\gatekeeper-values.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\values\\monitoring-values.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\k8s\\values\\vault-values.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\modules\\audit.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\modules\\execute.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\modules\\index.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\modules\\ingest.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\modules\\reason.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\modules\\sync.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\policies\\opa",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\policies\\data-privacy-policy.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\policies\\governance-rules.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\policies\\opa\\constraint-require-label.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\policies\\opa\\require-label.rego",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\prompts\\index",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\prompts\\masters",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\prompts\\idea_generator_template.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\prompts\\index\\prompt-registry.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\prompts\\masters\\auto_parse_compile.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\prompts\\masters\\auto_strategist.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\runbooks\\auto-all.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\generate-docs.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\git-bidirectional-sync.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\git-bidirectional-sync.sh",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\push-github-secrets.js",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\setup-secrets-all-repos.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\sync-env.sh",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\sync-secrets-cli.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\scripts\\validate-local.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\security\\mvs_production_rules.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\agents",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\client",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\evolution",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\ingestion",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\mapping",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\memory",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\orchestrator",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\prompts",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\schemas",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\server",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sop",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sync",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\taxonomy",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\utils",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\validation",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\agents\\auto-parse-compile-agent.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\agents\\auto-strategist-agent.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\agents\\chatgpt.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\agents\\gemini.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\agents\\github-copilot.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\agents\\hostinger.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\client\\index.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\client\\unified-client.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\evolution\\evolution-docs.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\ingestion\\taxonomy-ingestion.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\mapping\\index.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\mapping\\provider-mapper.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\memory\\evolution",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\memory\\rehydrate",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\memory\\google-drive.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\memory\\evolution\\evolution-sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\memory\\rehydrate\\blueprint.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\memory\\rehydrate\\prune-rotate.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\orchestrator\\smart-router.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\prompts\\prompt-registry.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\prompts\\prompt-runner.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\agents.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\crawler.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\event-bus.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\google-cloud.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\index.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\orchestrator.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\platforms.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\realtime-sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\quantum-mind\\unified-brain.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\schemas\\unified_action_schema.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\server\\copilot-mobile-api.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sop\\sop-manager.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sop\\sop-system.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sync\\ai-sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sync\\drive-sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sync\\git-sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sync\\github-secrets-sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\sync\\web-sync.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\taxonomy\\azure-taxonomy.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\taxonomy\\enterprise-taxonomy.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\taxonomy\\google-taxonomy.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\taxonomy\\openai-taxonomy.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\taxonomy\\tagging-system.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\utils\\logger.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\validation\\index.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\validation\\sop-validator.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\validation\\taxonomy-validator.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__\\unit",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__\\smoke.test.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__\\unit\\azure-taxonomy.test.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__\\unit\\sop-system.test.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__\\unit\\taxonomy.test.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__\\unit\\unified-client.test.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\src\\__tests__\\unit\\validation.test.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage\\src",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage\\Dockerfile",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage\\package.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage\\tsconfig.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage\\src\\connectors",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage\\src\\main.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\storage\\src\\connectors\\drive_connector.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\sync\\bin",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\sync\\git-sync-service.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\sync\\README.md",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\sync\\repo-sync.config.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\foundation\\sync\\bin\\sync-pr.ts",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\backups",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\builder",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\config",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\evolution",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\logs",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\map",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\meta",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\utils",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\ixos_structure.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\omega_master.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\omega_run_all.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\builder\\omega_builder.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\config\\orchestrator_spec.yaml",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\evolution\\evolution_log.txt",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\evolution\\omega_evolve.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_reasoning.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\logs\\runtime.log",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\map\\omega_map.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\map\\system_map.json",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\bootstrap",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\diagnostics",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\evolution",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\bootstrap\\repo_sync_engine_v3.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\bootstrap\\system_activation_engine.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\diagnostics\\health_check.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\diagnostics\\predictive_watchdog.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\diagnostics\\self_healing.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\evolution\\auto_evolve_kernel.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_builder-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_cortex-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_deploy-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_doc-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_index-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_taxonomy-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_todo-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\orchestrators\\services\\start_validator-service.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1",
+        "PSIsContainer":  false
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\utils\\logging",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\utils\\repo_tools",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\utils\\secrets",
+        "PSIsContainer":  true
+    },
+    {
+        "FullName":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\utils\\system_tools",
+        "PSIsContainer":  true
+    }
+]

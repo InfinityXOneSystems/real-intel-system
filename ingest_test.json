@@ -1,0 +1,9 @@
+﻿{
+    "data":  {
+                 "reason":  "Tax delinquency",
+                 "address":  "123 Foreclosure Ave, FL",
+                 "signal":  "high"
+             },
+    "source":  "manual-test",
+    "type":  "distressed_property"
+}

@@ -1,0 +1,78 @@
+param([string]$ROOT)
+$ErrorActionPreference="Stop"; Set-StrictMode -Version Latest
+
+Import-Module "$ROOT\system\governor\scf.psm1" -Force
+Import-Module "$ROOT\system\meta\ucg\ucg.psm1" -Force
+Import-Module "$ROOT\system\credentials\credstore.psm1" -Force
+
+Assert-ScfRunAllowed -ROOT $ROOT -Subsystem "repo.sync"
+$run = Start-UcgRun -ROOT $ROOT -Subsystem "repo.sync" -Script $PSCommandPath
+
+try {
+  $profile = Get-Content -Raw -Path "$ROOT\system\config\infinity_profile.json" | ConvertFrom-Json
+  $org  = $profile.identity.github_org
+  $reposDir = $profile.paths.repositories_dir
+
+  if (-not (Test-Path $reposDir)) { New-Item -ItemType Directory -Force -Path $reposDir | Out-Null }
+
+  Write-Host "🔁 Repo Sync — Org: $org => $reposDir" -ForegroundColor Cyan
+
+  $names = @()
+
+  # Prefer GitHub CLI if available (fast + reliable)
+  $gh = Get-Command gh -ErrorAction SilentlyContinue
+  if ($gh) {
+    try {
+      $json = gh repo list $org --limit 500 --json name 2>$null
+      if ($json) {
+        $parsed = $json | ConvertFrom-Json
+        $names = @($parsed | ForEach-Object { $_.name })
+      }
+    } catch {}
+  }
+
+  # Fallback to REST if GH not available
+  if (-not $names -or $names.Count -eq 0) {
+    $token = $env:GITHUB_TOKEN
+    if (-not $token) { $token = Get-InfinitySecretPlain -Name "github_pat" }
+    if (-not $token) { throw "Repo Sync requires gh auth OR GITHUB_TOKEN OR local github_pat in CredentialManager." }
+
+    $headers = @{ Authorization = ("token " + $token); "User-Agent"="InfinityXOS" }
+    $page = 1
+    while ($true) {
+      $url = "https://api.github.com/orgs/$org/repos?per_page=100&page=$page"
+      $resp = Invoke-RestMethod -Uri $url -Headers $headers -Method Get
+      if (-not $resp -or $resp.Count -eq 0) { break }
+      $names += @($resp | ForEach-Object { $_.name })
+      $page++
+      if ($page -gt 20) { break }
+    }
+  }
+
+  if (-not $names -or $names.Count -eq 0) { throw "No repos discovered for org '$org'." }
+
+  $synced = 0
+  foreach ($r in $names) {
+    $dest = Join-Path $reposDir $r
+    if (-not (Test-Path $dest)) {
+      Write-Host "⬇️  Cloning: $r" -ForegroundColor Yellow
+      git clone ("https://github.com/$org/$r.git") $dest | Out-Null
+    } else {
+      Write-Host "🔄 Pulling: $r" -ForegroundColor DarkGray
+      Push-Location $dest
+      try { git pull | Out-Null } finally { Pop-Location }
+    }
+    $synced++
+  }
+
+  $logPath = Join-Path $reposDir "sync_log.txt"
+  "[$(Get-Date -Format o)] synced=$synced" | Out-File -FilePath $logPath -Append -Encoding utf8
+
+  Write-UcgEvent -ROOT $ROOT -Type "repo.sync.tick" -Data @{ status="ok"; repos=$synced; repos_dir=$reposDir }
+  Stop-UcgRun -ROOT $ROOT -RunId $run -Status "ok"
+  Write-Host "✔ Repo Sync complete ($synced repos)." -ForegroundColor Green
+} catch {
+  Write-UcgEvent -ROOT $ROOT -Type "repo.sync.tick" -Data @{ status="error"; error=$_.Exception.Message }
+  Stop-UcgRun -ROOT $ROOT -RunId $run -Status "error" -Error $_.Exception.Message
+  throw
+}

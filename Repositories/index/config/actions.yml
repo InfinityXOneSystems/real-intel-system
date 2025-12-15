@@ -1,0 +1,286 @@
+# Infinity XOS Global Index - Actions Registry
+# Version: 2.0.0
+# This file defines all capabilities and actions available in the platform
+
+capabilities:
+  # ========================================
+  # WORKSPACE CAPABILITIES
+  # ========================================
+
+  - id: "cap.workspace.email.send"
+    name: "Send Email"
+    description: "Send transactional or assistant-composed emails via Gmail API"
+    domain: "workspace"
+    tags: ["gmail", "email", "outbound", "communication"]
+    default_owner_repo: "workspace"
+    required_permissions: ["workspace.gmail.send"]
+    rate_limit:
+      requests_per_minute: 60
+      requests_per_hour: 1000
+
+  - id: "cap.workspace.calendar.schedule"
+    name: "Schedule Appointment"
+    description: "Create, update, or cancel calendar appointments via Google Calendar"
+    domain: "workspace"
+    tags: ["calendar", "scheduling", "appointments"]
+    default_owner_repo: "workspace"
+    required_permissions: ["workspace.calendar.write"]
+    rate_limit:
+      requests_per_minute: 30
+      requests_per_hour: 500
+
+  - id: "cap.workspace.calendar.query"
+    name: "Query Calendar"
+    description: "Search and retrieve calendar events and availability"
+    domain: "workspace"
+    tags: ["calendar", "search", "availability"]
+    default_owner_repo: "workspace"
+    required_permissions: ["workspace.calendar.read"]
+    rate_limit:
+      requests_per_minute: 120
+      requests_per_hour: 2000
+
+  - id: "cap.workspace.tasks.manage"
+    name: "Manage Tasks"
+    description: "Create, update, complete, and delete tasks via Google Tasks"
+    domain: "workspace"
+    tags: ["tasks", "todo", "productivity"]
+    default_owner_repo: "workspace"
+    required_permissions: ["workspace.tasks.write"]
+    rate_limit:
+      requests_per_minute: 60
+      requests_per_hour: 1000
+
+  - id: "cap.workspace.drive.access"
+    name: "Access Google Drive"
+    description: "Read, write, and manage files in Google Drive"
+    domain: "workspace"
+    tags: ["drive", "files", "storage"]
+    default_owner_repo: "workspace"
+    required_permissions: ["workspace.drive.write"]
+    rate_limit:
+      requests_per_minute: 30
+      requests_per_hour: 500
+
+  # ========================================
+  # SOCIAL CAPABILITIES
+  # ========================================
+
+  - id: "cap.social.post.create"
+    name: "Create Social Post"
+    description: "Create and schedule social media posts across platforms"
+    domain: "social"
+    tags: ["social", "marketing", "content"]
+    default_owner_repo: "workspace"
+    required_permissions: ["social.post.write"]
+    rate_limit:
+      requests_per_minute: 10
+      requests_per_hour: 100
+
+  - id: "cap.social.analytics.query"
+    name: "Query Social Analytics"
+    description: "Retrieve analytics and metrics for social media posts"
+    domain: "social"
+    tags: ["analytics", "metrics", "reporting"]
+    default_owner_repo: "workspace"
+    required_permissions: ["social.analytics.read"]
+    rate_limit:
+      requests_per_minute: 60
+      requests_per_hour: 1000
+
+  # ========================================
+  # AGENTS CAPABILITIES
+  # ========================================
+
+  - id: "cap.agents.research.execute"
+    name: "Execute Research"
+    description: "Run autonomous research tasks with web crawling and analysis"
+    domain: "agents"
+    tags: ["research", "automation", "ai"]
+    default_owner_repo: "agents"
+    required_permissions: ["agents.research.execute"]
+    rate_limit:
+      requests_per_minute: 5
+      requests_per_hour: 50
+
+  - id: "cap.agents.code.generate"
+    name: "Generate Code"
+    description: "Generate code based on specifications using AI"
+    domain: "agents"
+    tags: ["codegen", "ai", "development"]
+    default_owner_repo: "codegen"
+    required_permissions: ["agents.code.generate"]
+    rate_limit:
+      requests_per_minute: 10
+      requests_per_hour: 100
+
+  # ========================================
+  # ML/AI CAPABILITIES
+  # ========================================
+
+  - id: "cap.ml.image.generate"
+    name: "Generate Image"
+    description: "Generate images using AI models (DALL-E, Stable Diffusion, etc.)"
+    domain: "ml"
+    tags: ["image", "generation", "ai"]
+    default_owner_repo: "vision_cortex"
+    required_permissions: ["ml.image.generate"]
+    rate_limit:
+      requests_per_minute: 5
+      requests_per_hour: 50
+
+  - id: "cap.ml.text.analyze"
+    name: "Analyze Text"
+    description: "Analyze text for sentiment, entities, topics, etc."
+    domain: "ml"
+    tags: ["nlp", "analysis", "ai"]
+    default_owner_repo: "language"
+    required_permissions: ["ml.text.analyze"]
+    rate_limit:
+      requests_per_minute: 60
+      requests_per_hour: 1000
+
+# ========================================
+# ACTIONS (Concrete Implementations)
+# ========================================
+
+actions:
+  # WORKSPACE ACTIONS
+
+  - id: "act.workspace.send_email"
+    capability_id: "cap.workspace.email.send"
+    repo: "workspace"
+    service: "workspace-api"
+    http:
+      method: "POST"
+      path: "/aura/workspace/send-email"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/workspace.send_email.request.json"
+    output_schema_ref: "schemas/actions/workspace.send_email.response.json"
+    description: "Send an email via Gmail API with optional attachments and scheduling"
+
+  - id: "act.workspace.schedule_appointment"
+    capability_id: "cap.workspace.calendar.schedule"
+    repo: "workspace"
+    service: "workspace-api"
+    http:
+      method: "POST"
+      path: "/aura/workspace/schedule-appointment"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/workspace.schedule_appointment.request.json"
+    output_schema_ref: "schemas/actions/workspace.schedule_appointment.response.json"
+    description: "Schedule a new calendar appointment with automatic conflict detection"
+
+  - id: "act.workspace.query_calendar"
+    capability_id: "cap.workspace.calendar.query"
+    repo: "workspace"
+    service: "workspace-api"
+    http:
+      method: "GET"
+      path: "/aura/workspace/calendar/events"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/workspace.query_calendar.request.json"
+    output_schema_ref: "schemas/actions/workspace.query_calendar.response.json"
+    description: "Query calendar events with filters for date range, attendees, etc."
+
+  - id: "act.workspace.create_task"
+    capability_id: "cap.workspace.tasks.manage"
+    repo: "workspace"
+    service: "workspace-api"
+    http:
+      method: "POST"
+      path: "/aura/workspace/tasks"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/workspace.create_task.request.json"
+    output_schema_ref: "schemas/actions/workspace.create_task.response.json"
+    description: "Create a new task in Google Tasks with optional due date and notes"
+
+  - id: "act.workspace.upload_file"
+    capability_id: "cap.workspace.drive.access"
+    repo: "workspace"
+    service: "workspace-api"
+    http:
+      method: "POST"
+      path: "/aura/workspace/drive/upload"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/workspace.upload_file.request.json"
+    output_schema_ref: "schemas/actions/workspace.upload_file.response.json"
+    description: "Upload a file to Google Drive with optional folder and sharing settings"
+
+  # SOCIAL ACTIONS
+
+  - id: "act.social.create_post"
+    capability_id: "cap.social.post.create"
+    repo: "workspace"
+    service: "social-api"
+    http:
+      method: "POST"
+      path: "/aura/social/posts"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/social.create_post.request.json"
+    output_schema_ref: "schemas/actions/social.create_post.response.json"
+    description: "Create and optionally schedule a social media post across platforms"
+
+  - id: "act.social.get_analytics"
+    capability_id: "cap.social.analytics.query"
+    repo: "workspace"
+    service: "social-api"
+    http:
+      method: "GET"
+      path: "/aura/social/analytics"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/social.get_analytics.request.json"
+    output_schema_ref: "schemas/actions/social.get_analytics.response.json"
+    description: "Retrieve analytics for social media posts including engagement metrics"
+
+  # AGENTS ACTIONS
+
+  - id: "act.agents.run_research"
+    capability_id: "cap.agents.research.execute"
+    repo: "agents"
+    service: "research-agent"
+    http:
+      method: "POST"
+      path: "/agents/research/execute"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/agents.run_research.request.json"
+    output_schema_ref: "schemas/actions/agents.run_research.response.json"
+    description: "Execute autonomous research task with web search and analysis"
+
+  - id: "act.codegen.generate"
+    capability_id: "cap.agents.code.generate"
+    repo: "codegen"
+    service: "codegen-api"
+    http:
+      method: "POST"
+      path: "/codegen/generate"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/codegen.generate.request.json"
+    output_schema_ref: "schemas/actions/codegen.generate.response.json"
+    description: "Generate code from specifications using AI models"
+
+  # ML ACTIONS
+
+  - id: "act.vision.generate_image"
+    capability_id: "cap.ml.image.generate"
+    repo: "vision_cortex"
+    service: "vision-api"
+    http:
+      method: "POST"
+      path: "/vision/generate-image"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/vision.generate_image.request.json"
+    output_schema_ref: "schemas/actions/vision.generate_image.response.json"
+    description: "Generate an image using AI models based on text prompt"
+
+  - id: "act.language.analyze_text"
+    capability_id: "cap.ml.text.analyze"
+    repo: "language"
+    service: "language-api"
+    http:
+      method: "POST"
+      path: "/language/analyze"
+    auth: "internal_api_key"
+    input_schema_ref: "schemas/actions/language.analyze_text.request.json"
+    output_schema_ref: "schemas/actions/language.analyze_text.response.json"
+    description: "Analyze text for sentiment, entities, topics, and other NLP tasks"

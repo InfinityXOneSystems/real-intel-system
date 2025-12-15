@@ -1,0 +1,1272 @@
+{
+    "created":  "2025-12-12T01:53:31.3448037-05:00",
+    "version":  "UCG_v1",
+    "edges":  [
+
+              ],
+    "nodes":  {
+                  "run:5745d8f183004f9bbcec9b85a04b3f5b":  {
+                                                               "props":  {
+                                                                             "script":  "patch",
+                                                                             "subsystem":  "smoke",
+                                                                             "status":  "started"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:04:32.0525224-05:00",
+                                                               "id":  "run:5745d8f183004f9bbcec9b85a04b3f5b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:a585ed449f194015b464605940fa3172":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:21 char:53\r\n+ ... n -ROOT $ROOT -RunId $run -Status \"error\" -Error $_.Exception.Message\r\n+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:7 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:23 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:04:32.6178609-05:00",
+                                                               "id":  "run:a585ed449f194015b464605940fa3172",
+                                                               "kind":  "run"
+                                                           },
+                  "run:fca9eede7d1a4f52bf7b03ae3be35d63":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:21 char:53\r\n+ ... n -ROOT $ROOT -RunId $run -Status \"error\" -Error $_.Exception.Message\r\n+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:7 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:23 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:04:32.7008414-05:00",
+                                                               "id":  "run:fca9eede7d1a4f52bf7b03ae3be35d63",
+                                                               "kind":  "run"
+                                                           },
+                  "run:b3013295b0bf48279a1b6ca3b5def24c":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:47 char:55\r\n+     Stop-UcgRun -ROOT $ROOT -RunId $run -Status \"error\" -Error $err\r\n+                                                       ~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:22 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:50 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:07:01.7541780-05:00",
+                                                               "id":  "run:b3013295b0bf48279a1b6ca3b5def24c",
+                                                               "kind":  "run"
+                                                           },
+                  "run:9400399d30ed409fbf5c0c0c3bc627cb":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:47 char:55\r\n+     Stop-UcgRun -ROOT $ROOT -RunId $run -Status \"error\" -Error $err\r\n+                                                       ~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:22 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\kernel\\omega_kernel.ps1:50 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:07:01.8312039-05:00",
+                                                               "id":  "run:9400399d30ed409fbf5c0c0c3bc627cb",
+                                                               "kind":  "run"
+                                                           },
+                  "run:4b32468211a24f3da7c6a45527e6df71":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:09:12.1254445-05:00",
+                                                               "id":  "run:4b32468211a24f3da7c6a45527e6df71",
+                                                               "kind":  "run"
+                                                           },
+                  "run:b034ebd8a07c42d29d8e74ea00ad9a50":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:09:12.6379286-05:00",
+                                                               "id":  "run:b034ebd8a07c42d29d8e74ea00ad9a50",
+                                                               "kind":  "run"
+                                                           },
+                  "run:9d818d2e22b04b6182bd12dc7f7ebdd1":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:09:12.6739369-05:00",
+                                                               "id":  "run:9d818d2e22b04b6182bd12dc7f7ebdd1",
+                                                               "kind":  "run"
+                                                           },
+                  "run:25e5398344614e3183db9ee4eedddbc9":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:09:13.0717603-05:00",
+                                                               "id":  "run:25e5398344614e3183db9ee4eedddbc9",
+                                                               "kind":  "run"
+                                                           },
+                  "run:fa05f6d1fccd436da6d71ed6acbc6ccd":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:09:13.1176625-05:00",
+                                                               "id":  "run:fa05f6d1fccd436da6d71ed6acbc6ccd",
+                                                               "kind":  "run"
+                                                           },
+                  "run:a2bf1610f8d946cca8a9510bbecd11ab":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:09:13.1829157-05:00",
+                                                               "id":  "run:a2bf1610f8d946cca8a9510bbecd11ab",
+                                                               "kind":  "run"
+                                                           },
+                  "run:741c93c3e8e64fd4ad6b2e53ca7e482c":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:10:37.4909037-05:00",
+                                                               "id":  "run:741c93c3e8e64fd4ad6b2e53ca7e482c",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2373440d0a1c4d6fb3c771de2bc8efe4":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:10:38.0220575-05:00",
+                                                               "id":  "run:2373440d0a1c4d6fb3c771de2bc8efe4",
+                                                               "kind":  "run"
+                                                           },
+                  "run:8d1e83026af74568bbd4f8194f52bc80":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:10:38.0706654-05:00",
+                                                               "id":  "run:8d1e83026af74568bbd4f8194f52bc80",
+                                                               "kind":  "run"
+                                                           },
+                  "run:ffed5404140846a3afde4a3bde04ce8e":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:10:38.2961961-05:00",
+                                                               "id":  "run:ffed5404140846a3afde4a3bde04ce8e",
+                                                               "kind":  "run"
+                                                           },
+                  "run:8603d4b08aca4335986e4688f18f1541":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:10:38.3470678-05:00",
+                                                               "id":  "run:8603d4b08aca4335986e4688f18f1541",
+                                                               "kind":  "run"
+                                                           },
+                  "run:46354335e10b4006bf74c27e7c1f7966":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1:39 char:55\r\n+     Stop-UcgRun -ROOT $ROOT -RunId $run -Status \"error\" -Error $err\r\n+                                                       ~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1:22 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1:42 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:10:38.4596832-05:00",
+                                                               "id":  "run:46354335e10b4006bf74c27e7c1f7966",
+                                                               "kind":  "run"
+                                                           },
+                  "run:c0cc4727b9744294b56e309b2b9e540b":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1:39 char:55\r\n+     Stop-UcgRun -ROOT $ROOT -RunId $run -Status \"error\" -Error $err\r\n+                                                       ~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1:22 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1:42 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:10:38.5340224-05:00",
+                                                               "id":  "run:c0cc4727b9744294b56e309b2b9e540b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:78d97b4284654a5abd87010a21aa77a9":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:32.5453020-05:00",
+                                                               "id":  "run:78d97b4284654a5abd87010a21aa77a9",
+                                                               "kind":  "run"
+                                                           },
+                  "run:3c4dbe327b0b4980adbefdc0ee57ec52":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:33.1057006-05:00",
+                                                               "id":  "run:3c4dbe327b0b4980adbefdc0ee57ec52",
+                                                               "kind":  "run"
+                                                           },
+                  "run:97f1a9278189478f9a43fc5e95a5fc22":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:33.1808120-05:00",
+                                                               "id":  "run:97f1a9278189478f9a43fc5e95a5fc22",
+                                                               "kind":  "run"
+                                                           },
+                  "run:b0cd048a994f4148b23b86f5939614ca":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:33.4105168-05:00",
+                                                               "id":  "run:b0cd048a994f4148b23b86f5939614ca",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2b1d4df1e8a7414ba262ae23ce7ebb7e":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:33.4788330-05:00",
+                                                               "id":  "run:2b1d4df1e8a7414ba262ae23ce7ebb7e",
+                                                               "kind":  "run"
+                                                           },
+                  "run:6a4b569730254b2fabac0973a6ef9af9":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:33.7413708-05:00",
+                                                               "id":  "run:6a4b569730254b2fabac0973a6ef9af9",
+                                                               "kind":  "run"
+                                                           },
+                  "run:bd83367c1c3a4ca892d00fbe4571cd7b":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:33.8049980-05:00",
+                                                               "id":  "run:bd83367c1c3a4ca892d00fbe4571cd7b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:00ff638f603945beaf40c578bed058a2":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:34.1988789-05:00",
+                                                               "id":  "run:00ff638f603945beaf40c578bed058a2",
+                                                               "kind":  "run"
+                                                           },
+                  "run:defe5cff89234a5cafc2f90e2298624a":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:34.2509197-05:00",
+                                                               "id":  "run:defe5cff89234a5cafc2f90e2298624a",
+                                                               "kind":  "run"
+                                                           },
+                  "run:4cddfc4c48b04d8f9ee083bf81e268cb":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:11:34.3261086-05:00",
+                                                               "id":  "run:4cddfc4c48b04d8f9ee083bf81e268cb",
+                                                               "kind":  "run"
+                                                           },
+                  "run:5dec5e519ec94ca6a3556c3a0193290f":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:26:47.2865546-05:00",
+                                                               "id":  "run:5dec5e519ec94ca6a3556c3a0193290f",
+                                                               "kind":  "run"
+                                                           },
+                  "run:f9a1a89e4d344145a3daa5c32c1a2797":  {
+                                                               "props":  {
+                                                                             "error":  "The process cannot access the file \u0027C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\meta\\ucg\\events.jsonl\u0027 because it is being used by another process.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:26:47.8230393-05:00",
+                                                               "id":  "run:f9a1a89e4d344145a3daa5c32c1a2797",
+                                                               "kind":  "run"
+                                                           },
+                  "run:1e154a049cd34f50a824adaae6056371":  {
+                                                               "props":  {
+                                                                             "error":  "The process cannot access the file \u0027C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\meta\\ucg\\events.jsonl\u0027 because it is being used by another process.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:26:47.8656108-05:00",
+                                                               "id":  "run:1e154a049cd34f50a824adaae6056371",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2575421c75d841a4b72fe670b20b198f":  {
+                                                               "props":  {
+                                                                             "error":  "The process cannot access the file \u0027C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\meta\\ucg\\events.jsonl\u0027 because it is being used by another process.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T02:26:47.9250976-05:00",
+                                                               "id":  "run:2575421c75d841a4b72fe670b20b198f",
+                                                               "kind":  "run"
+                                                           },
+                  "run:20878218721b46008330b09a2baf4aaf":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:27.1202992-05:00",
+                                                               "id":  "run:20878218721b46008330b09a2baf4aaf",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2d35c4644689402fa0816b0aef18572d":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:27.1672941-05:00",
+                                                               "id":  "run:2d35c4644689402fa0816b0aef18572d",
+                                                               "kind":  "run"
+                                                           },
+                  "run:78ced61456d74f7b9f7794006f8a91d5":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:27.3922602-05:00",
+                                                               "id":  "run:78ced61456d74f7b9f7794006f8a91d5",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2bd701891ec54a4b98e3881d58ae358a":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:27.4462115-05:00",
+                                                               "id":  "run:2bd701891ec54a4b98e3881d58ae358a",
+                                                               "kind":  "run"
+                                                           },
+                  "run:467d553e373144628bf7de451a4213bf":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:27.6651684-05:00",
+                                                               "id":  "run:467d553e373144628bf7de451a4213bf",
+                                                               "kind":  "run"
+                                                           },
+                  "run:4d391bd13c6543f482d7d64b28e5428b":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:27.7167826-05:00",
+                                                               "id":  "run:4d391bd13c6543f482d7d64b28e5428b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e240d194b4dd48b5bb771005e34050e0":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:28.0789566-05:00",
+                                                               "id":  "run:e240d194b4dd48b5bb771005e34050e0",
+                                                               "kind":  "run"
+                                                           },
+                  "run:deb4a2ad1340410c87890fc72771ddd2":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:28.1289217-05:00",
+                                                               "id":  "run:deb4a2ad1340410c87890fc72771ddd2",
+                                                               "kind":  "run"
+                                                           },
+                  "run:1a5b396ccc8a4d98bf8e4b26dcec3794":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:28.4658923-05:00",
+                                                               "id":  "run:1a5b396ccc8a4d98bf8e4b26dcec3794",
+                                                               "kind":  "run"
+                                                           },
+                  "run:f3ee8bd4acfc49848362854a0419cb81":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:28.5087990-05:00",
+                                                               "id":  "run:f3ee8bd4acfc49848362854a0419cb81",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e78182700d854c75bc7534423c0c0eb6":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:04:28.5682560-05:00",
+                                                               "id":  "run:e78182700d854c75bc7534423c0c0eb6",
+                                                               "kind":  "run"
+                                                           },
+                  "run:0633c0ddf0434ba8b0ee1d10225ceb5e":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:58.8647490-05:00",
+                                                               "id":  "run:0633c0ddf0434ba8b0ee1d10225ceb5e",
+                                                               "kind":  "run"
+                                                           },
+                  "run:f2d1590bfb2b40fe82809e976446e423":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:58.9149714-05:00",
+                                                               "id":  "run:f2d1590bfb2b40fe82809e976446e423",
+                                                               "kind":  "run"
+                                                           },
+                  "run:7a627594820e47a0a75d9338257cd997":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:59.1382196-05:00",
+                                                               "id":  "run:7a627594820e47a0a75d9338257cd997",
+                                                               "kind":  "run"
+                                                           },
+                  "run:9beb50730b684d65bb71b3f5a38c1f11":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:59.1883259-05:00",
+                                                               "id":  "run:9beb50730b684d65bb71b3f5a38c1f11",
+                                                               "kind":  "run"
+                                                           },
+                  "run:fb693a8edc8f4e8499ff0c3cbe960f5f":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:59.3737662-05:00",
+                                                               "id":  "run:fb693a8edc8f4e8499ff0c3cbe960f5f",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e3d12a80dd1d41eb95439ff0f81a4e86":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:59.4242347-05:00",
+                                                               "id":  "run:e3d12a80dd1d41eb95439ff0f81a4e86",
+                                                               "kind":  "run"
+                                                           },
+                  "run:cea75e4b01ce41b79dd6d9bc01d27148":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:59.6925395-05:00",
+                                                               "id":  "run:cea75e4b01ce41b79dd6d9bc01d27148",
+                                                               "kind":  "run"
+                                                           },
+                  "run:9c60f135df734ab986949f1c183c622f":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:20:59.7523059-05:00",
+                                                               "id":  "run:9c60f135df734ab986949f1c183c622f",
+                                                               "kind":  "run"
+                                                           },
+                  "run:93d82ce7a4464399a6875ff4a71150e9":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:21:00.0204576-05:00",
+                                                               "id":  "run:93d82ce7a4464399a6875ff4a71150e9",
+                                                               "kind":  "run"
+                                                           },
+                  "run:b75ee07354074275aad78bf2c4908ead":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:21:00.0735670-05:00",
+                                                               "id":  "run:b75ee07354074275aad78bf2c4908ead",
+                                                               "kind":  "run"
+                                                           },
+                  "run:9bdb4d2457b24c1cb18bcf836913d649":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:21:00.1330499-05:00",
+                                                               "id":  "run:9bdb4d2457b24c1cb18bcf836913d649",
+                                                               "kind":  "run"
+                                                           },
+                  "run:d75bccae9db6441a8c8fe1a5ea2879c9":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:38.7182918-05:00",
+                                                               "id":  "run:d75bccae9db6441a8c8fe1a5ea2879c9",
+                                                               "kind":  "run"
+                                                           },
+                  "run:75837b8de6d1480bbe669c950b6a3246":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:38.7683383-05:00",
+                                                               "id":  "run:75837b8de6d1480bbe669c950b6a3246",
+                                                               "kind":  "run"
+                                                           },
+                  "run:6e5a2cdf0c78477b806368eb07641f01":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:38.9676667-05:00",
+                                                               "id":  "run:6e5a2cdf0c78477b806368eb07641f01",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2a3c5fe22a5747d09c5700ee47a77663":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:39.0298080-05:00",
+                                                               "id":  "run:2a3c5fe22a5747d09c5700ee47a77663",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e61bcde061bf42bc82355d9b32c151d1":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:39.2295818-05:00",
+                                                               "id":  "run:e61bcde061bf42bc82355d9b32c151d1",
+                                                               "kind":  "run"
+                                                           },
+                  "run:15b99f04175349ff93a4556db34bebb3":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:39.2726500-05:00",
+                                                               "id":  "run:15b99f04175349ff93a4556db34bebb3",
+                                                               "kind":  "run"
+                                                           },
+                  "run:baa2e0878ca84f22bf95e359199a8d3d":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:39.5317889-05:00",
+                                                               "id":  "run:baa2e0878ca84f22bf95e359199a8d3d",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e194c3002ab24975a6251777a6ce3d6c":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:39.5790462-05:00",
+                                                               "id":  "run:e194c3002ab24975a6251777a6ce3d6c",
+                                                               "kind":  "run"
+                                                           },
+                  "run:534360b055f941a2841336ec196944ff":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:39.8514825-05:00",
+                                                               "id":  "run:534360b055f941a2841336ec196944ff",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e377fecc4ec34105957e1a4c4f3abfe8":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:39.8967625-05:00",
+                                                               "id":  "run:e377fecc4ec34105957e1a4c4f3abfe8",
+                                                               "kind":  "run"
+                                                           },
+                  "run:6c18d97ee34f4c06814737372c488a33":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:40.2245410-05:00",
+                                                               "id":  "run:6c18d97ee34f4c06814737372c488a33",
+                                                               "kind":  "run"
+                                                           },
+                  "run:063117d2ae044522beb229b1b6291510":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:40.2669823-05:00",
+                                                               "id":  "run:063117d2ae044522beb229b1b6291510",
+                                                               "kind":  "run"
+                                                           },
+                  "run:d84970608c62433c9c0534f353b71a2b":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:36:40.3395350-05:00",
+                                                               "id":  "run:d84970608c62433c9c0534f353b71a2b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:7e13dd06f19e44bfa4202a13f8521926":  {
+                                                               "props":  {
+                                                                             "script":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\omega_master.ps1",
+                                                                             "subsystem":  "omega.master",
+                                                                             "status":  "started"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:40:23.3404973-05:00",
+                                                               "id":  "run:7e13dd06f19e44bfa4202a13f8521926",
+                                                               "kind":  "run"
+                                                           },
+                  "run:8cd1a4b93e2a478daf4460ef4721eddf":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:40:23.5467251-05:00",
+                                                               "id":  "run:8cd1a4b93e2a478daf4460ef4721eddf",
+                                                               "kind":  "run"
+                                                           },
+                  "run:5f00b4d93f8b4362b527a67fc67a4835":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:40:23.5984113-05:00",
+                                                               "id":  "run:5f00b4d93f8b4362b527a67fc67a4835",
+                                                               "kind":  "run"
+                                                           },
+                  "run:bf4d20e970044deb856779816107df08":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:40:23.8116000-05:00",
+                                                               "id":  "run:bf4d20e970044deb856779816107df08",
+                                                               "kind":  "run"
+                                                           },
+                  "run:3f6d4db5024a46cc86180f5238b66efe":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:40:23.8567320-05:00",
+                                                               "id":  "run:3f6d4db5024a46cc86180f5238b66efe",
+                                                               "kind":  "run"
+                                                           },
+                  "run:1790d3d21e584b0a9bb49d4e6c4f8cdc":  {
+                                                               "props":  {
+                                                                             "script":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\upgrade\\omega_upgrade.ps1",
+                                                                             "subsystem":  "upgrade",
+                                                                             "status":  "started"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:40:23.9825415-05:00",
+                                                               "id":  "run:1790d3d21e584b0a9bb49d4e6c4f8cdc",
+                                                               "kind":  "run"
+                                                           },
+                  "run:489456bd9c764fe6a5999657217c74f9":  {
+                                                               "props":  {
+                                                                             "error":  "The process cannot access the file \u0027C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\meta\\ucg\\events.jsonl\u0027 because it is being used by another process.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T03:40:24.0772907-05:00",
+                                                               "id":  "run:489456bd9c764fe6a5999657217c74f9",
+                                                               "kind":  "run"
+                                                           },
+                  "run:317ec66a5b1b41de984e35edf83308ea":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:34.8003708-05:00",
+                                                               "id":  "run:317ec66a5b1b41de984e35edf83308ea",
+                                                               "kind":  "run"
+                                                           },
+                  "run:678cb552f6d0440c8ea3036437ba77e8":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:34.8630378-05:00",
+                                                               "id":  "run:678cb552f6d0440c8ea3036437ba77e8",
+                                                               "kind":  "run"
+                                                           },
+                  "run:98622569796f45c5a3e0e00b465e4695":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.0966656-05:00",
+                                                               "id":  "run:98622569796f45c5a3e0e00b465e4695",
+                                                               "kind":  "run"
+                                                           },
+                  "run:5d4e4b804d224b17b2c01ec82034a89e":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.1518895-05:00",
+                                                               "id":  "run:5d4e4b804d224b17b2c01ec82034a89e",
+                                                               "kind":  "run"
+                                                           },
+                  "run:43ce737031b042ffbe7277320d6dc638":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.4152803-05:00",
+                                                               "id":  "run:43ce737031b042ffbe7277320d6dc638",
+                                                               "kind":  "run"
+                                                           },
+                  "run:5530fe46977e4cc38f02c020ec6b7066":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.4577370-05:00",
+                                                               "id":  "run:5530fe46977e4cc38f02c020ec6b7066",
+                                                               "kind":  "run"
+                                                           },
+                  "run:6e8a85410e1043098f3d3cf229d68489":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.6654335-05:00",
+                                                               "id":  "run:6e8a85410e1043098f3d3cf229d68489",
+                                                               "kind":  "run"
+                                                           },
+                  "run:067bcbd98c68448fabd3b54ada1ec481":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.7192421-05:00",
+                                                               "id":  "run:067bcbd98c68448fabd3b54ada1ec481",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2eee8266f2504ed6ab44cbcbea155769":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.9229893-05:00",
+                                                               "id":  "run:2eee8266f2504ed6ab44cbcbea155769",
+                                                               "kind":  "run"
+                                                           },
+                  "run:56b88ff12e834c06b998654f7f7784c8":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:35.9757418-05:00",
+                                                               "id":  "run:56b88ff12e834c06b998654f7f7784c8",
+                                                               "kind":  "run"
+                                                           },
+                  "run:88cf8bcbff3248d0a34f30b497682024":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:36.2526930-05:00",
+                                                               "id":  "run:88cf8bcbff3248d0a34f30b497682024",
+                                                               "kind":  "run"
+                                                           },
+                  "run:ffa7bc31037f4bdeaad561d52e848d63":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:36.3114158-05:00",
+                                                               "id":  "run:ffa7bc31037f4bdeaad561d52e848d63",
+                                                               "kind":  "run"
+                                                           },
+                  "run:4d4e49dd5f4d41b381511f9e1f6f7e51":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:36.6620339-05:00",
+                                                               "id":  "run:4d4e49dd5f4d41b381511f9e1f6f7e51",
+                                                               "kind":  "run"
+                                                           },
+                  "run:58765d246eaa4868b460e44e70a2921e":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:36.7113246-05:00",
+                                                               "id":  "run:58765d246eaa4868b460e44e70a2921e",
+                                                               "kind":  "run"
+                                                           },
+                  "run:73c548f99a4c4d4cbf0e0dcf6a230455":  {
+                                                               "props":  {
+                                                                             "error":  "The term \u0027clean\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:19:36.7767812-05:00",
+                                                               "id":  "run:73c548f99a4c4d4cbf0e0dcf6a230455",
+                                                               "kind":  "run"
+                                                           },
+                  "run:a63ae981df7845f4bd16512ead1630a6":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.1696506-05:00",
+                                                               "id":  "run:a63ae981df7845f4bd16512ead1630a6",
+                                                               "kind":  "run"
+                                                           },
+                  "run:c2185428f85044db91caafb40d195def":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.2088350-05:00",
+                                                               "id":  "run:c2185428f85044db91caafb40d195def",
+                                                               "kind":  "run"
+                                                           },
+                  "run:b294d88fcbef4a2e9cb78256c2f3cc2f":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.4098403-05:00",
+                                                               "id":  "run:b294d88fcbef4a2e9cb78256c2f3cc2f",
+                                                               "kind":  "run"
+                                                           },
+                  "run:ab00f14caec545a195341b965bc85d51":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.5005459-05:00",
+                                                               "id":  "run:ab00f14caec545a195341b965bc85d51",
+                                                               "kind":  "run"
+                                                           },
+                  "run:7bc8e218462f40aa9424ab44e99c2627":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.6948337-05:00",
+                                                               "id":  "run:7bc8e218462f40aa9424ab44e99c2627",
+                                                               "kind":  "run"
+                                                           },
+                  "run:d102219adad64e7e8dcac92623e8cdbe":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.7445532-05:00",
+                                                               "id":  "run:d102219adad64e7e8dcac92623e8cdbe",
+                                                               "kind":  "run"
+                                                           },
+                  "run:f145e005be2f4e4fa4452f2ee5f2d03b":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.9467058-05:00",
+                                                               "id":  "run:f145e005be2f4e4fa4452f2ee5f2d03b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:1c4b0558bc2141e6b64382420130f61b":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:33.9941504-05:00",
+                                                               "id":  "run:1c4b0558bc2141e6b64382420130f61b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:131f69a6b2874c31bfe0ba32eb7eef7c":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:34.2072465-05:00",
+                                                               "id":  "run:131f69a6b2874c31bfe0ba32eb7eef7c",
+                                                               "kind":  "run"
+                                                           },
+                  "run:a717ee9942dd4553963ac8c877bd4af2":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:34.2644043-05:00",
+                                                               "id":  "run:a717ee9942dd4553963ac8c877bd4af2",
+                                                               "kind":  "run"
+                                                           },
+                  "run:bdd8fa0aaff44c98bb6439181e6b8d86":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:34.4511050-05:00",
+                                                               "id":  "run:bdd8fa0aaff44c98bb6439181e6b8d86",
+                                                               "kind":  "run"
+                                                           },
+                  "run:d4e4f6350fe24e24a1b72ec6617b3586":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:34.4936099-05:00",
+                                                               "id":  "run:d4e4f6350fe24e24a1b72ec6617b3586",
+                                                               "kind":  "run"
+                                                           },
+                  "run:0c80f990ce014137a101aa4ce6d26b6d":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:34.8009817-05:00",
+                                                               "id":  "run:0c80f990ce014137a101aa4ce6d26b6d",
+                                                               "kind":  "run"
+                                                           },
+                  "run:f920976e805d452c869d564d167d9924":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:34.8522815-05:00",
+                                                               "id":  "run:f920976e805d452c869d564d167d9924",
+                                                               "kind":  "run"
+                                                           },
+                  "run:972c420a01b240febf4844b25198313b":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:47\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                               ~~~~~\nUnexpected token \u0027repos\u0027 in expression or statement.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:46\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                              ~\nMissing closing \u0027)\u0027 in expression.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:11 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:52\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                                    ~\nThe Try statement is missing its Catch or Finally block.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:52\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                                    ~\nUnexpected token \u0027)\u0027 in expression or statement.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:76 char:53\r\n+ ... n -ROOT $ROOT -RunId $run -Status \"error\" -Error $_.Exception.Message\r\n+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThe string is missing the terminator: \".",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:34.9965915-05:00",
+                                                               "id":  "run:972c420a01b240febf4844b25198313b",
+                                                               "kind":  "run"
+                                                           },
+                  "run:173224ab4c7a4000a6f0abbd456bbfd7":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:47\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                               ~~~~~\nUnexpected token \u0027repos\u0027 in expression or statement.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:46\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                              ~\nMissing closing \u0027)\u0027 in expression.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:11 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:52\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                                    ~\nThe Try statement is missing its Catch or Finally block.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:73 char:52\r\n+   Write-Host \"âœ” Repo Sync complete ($synced repos).\" -ForegroundCol ...\r\n+                                                    ~\nUnexpected token \u0027)\u0027 in expression or statement.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\repo_sync_engine.ps1:76 char:53\r\n+ ... n -ROOT $ROOT -RunId $run -Status \"error\" -Error $_.Exception.Message\r\n+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThe string is missing the terminator: \".",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:23:35.0754628-05:00",
+                                                               "id":  "run:173224ab4c7a4000a6f0abbd456bbfd7",
+                                                               "kind":  "run"
+                                                           },
+                  "run:7419ee7c35814f01bfb15e742c9a0b5d":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:49.4991865-05:00",
+                                                               "id":  "run:7419ee7c35814f01bfb15e742c9a0b5d",
+                                                               "kind":  "run"
+                                                           },
+                  "run:fac826f4d09b4f4b9a5f3cd395334add":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:49.5608097-05:00",
+                                                               "id":  "run:fac826f4d09b4f4b9a5f3cd395334add",
+                                                               "kind":  "run"
+                                                           },
+                  "run:114cfe3d7de04b24ad9d57876ef3d2f6":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:49.8350085-05:00",
+                                                               "id":  "run:114cfe3d7de04b24ad9d57876ef3d2f6",
+                                                               "kind":  "run"
+                                                           },
+                  "run:a49408ae7ad14677b7cbee5740bf5dd3":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:49.8949841-05:00",
+                                                               "id":  "run:a49408ae7ad14677b7cbee5740bf5dd3",
+                                                               "kind":  "run"
+                                                           },
+                  "run:9f85fd132a904fa4ab0b2d0de7693155":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:50.1263686-05:00",
+                                                               "id":  "run:9f85fd132a904fa4ab0b2d0de7693155",
+                                                               "kind":  "run"
+                                                           },
+                  "run:5dc21ffb457640738c6fc657de578417":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:50.1807471-05:00",
+                                                               "id":  "run:5dc21ffb457640738c6fc657de578417",
+                                                               "kind":  "run"
+                                                           },
+                  "run:ec33fa28879f4fddab0fe1e9cfb958bf":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:50.4010285-05:00",
+                                                               "id":  "run:ec33fa28879f4fddab0fe1e9cfb958bf",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e9ef782732cf4721bf7f6777abdb5704":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:50.4570912-05:00",
+                                                               "id":  "run:e9ef782732cf4721bf7f6777abdb5704",
+                                                               "kind":  "run"
+                                                           },
+                  "run:47ac37a0e9384d94898b4f41f0bd8ba3":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:50.6845268-05:00",
+                                                               "id":  "run:47ac37a0e9384d94898b4f41f0bd8ba3",
+                                                               "kind":  "run"
+                                                           },
+                  "run:53701505c89348d789817cfe749f4351":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:50.7485508-05:00",
+                                                               "id":  "run:53701505c89348d789817cfe749f4351",
+                                                               "kind":  "run"
+                                                           },
+                  "run:6286f6f36a914e09b3a58c3687ba80a6":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:50.9593485-05:00",
+                                                               "id":  "run:6286f6f36a914e09b3a58c3687ba80a6",
+                                                               "kind":  "run"
+                                                           },
+                  "run:5099ffe2ee514c149fce786c8c3696e3":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:51.0147396-05:00",
+                                                               "id":  "run:5099ffe2ee514c149fce786c8c3696e3",
+                                                               "kind":  "run"
+                                                           },
+                  "run:5a2ee6749a2d49b6b8e9b1e44413510f":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:51.2734318-05:00",
+                                                               "id":  "run:5a2ee6749a2d49b6b8e9b1e44413510f",
+                                                               "kind":  "run"
+                                                           },
+                  "run:349f14cd375340209a1953bed9e2bc68":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:30:51.3413289-05:00",
+                                                               "id":  "run:349f14cd375340209a1953bed9e2bc68",
+                                                               "kind":  "run"
+                                                           },
+                  "run:ddd3c2b2c5c34e9bb3a76a77732daec7":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:32:07.6368595-05:00",
+                                                               "id":  "run:ddd3c2b2c5c34e9bb3a76a77732daec7",
+                                                               "kind":  "run"
+                                                           },
+                  "run:f1868d80f8b14611a2cda9354a67d22a":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:32:07.7026343-05:00",
+                                                               "id":  "run:f1868d80f8b14611a2cda9354a67d22a",
+                                                               "kind":  "run"
+                                                           },
+                  "run:dc0e80d076e84d77a9f62c4511ba4843":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\publish_state.ps1:57 char:53\r\n+ ... n -ROOT $ROOT -RunId $run -Status \"error\" -Error $_.Exception.Message\r\n+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\publish_state.ps1:10 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\publish_state.ps1:59 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:32:07.8658179-05:00",
+                                                               "id":  "run:dc0e80d076e84d77a9f62c4511ba4843",
+                                                               "kind":  "run"
+                                                           },
+                  "run:57d1479326614cfabeb6ec201a672faf":  {
+                                                               "props":  {
+                                                                             "error":  "At C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\publish_state.ps1:57 char:53\r\n+ ... n -ROOT $ROOT -RunId $run -Status \"error\" -Error $_.Exception.Message\r\n+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThe string is missing the terminator: \".\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\publish_state.ps1:10 char:5\r\n+ try {\r\n+     ~\nMissing closing \u0027}\u0027 in statement block or type definition.\r\n\r\nAt C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\sync\\publish_state.ps1:59 char:2\r\n+ }\r\n+  ~\nThe Try statement is missing its Catch or Finally block.",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:32:07.9620858-05:00",
+                                                               "id":  "run:57d1479326614cfabeb6ec201a672faf",
+                                                               "kind":  "run"
+                                                           },
+                  "run:0ccd2c74f3604a89a1b996bfe84868f0":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:54.8136644-05:00",
+                                                               "id":  "run:0ccd2c74f3604a89a1b996bfe84868f0",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e608e7946d594834bd2f904cc8e13d43":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:54.8691769-05:00",
+                                                               "id":  "run:e608e7946d594834bd2f904cc8e13d43",
+                                                               "kind":  "run"
+                                                           },
+                  "run:88f53e986413437b8f2a77165dc49ba5":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.0888251-05:00",
+                                                               "id":  "run:88f53e986413437b8f2a77165dc49ba5",
+                                                               "kind":  "run"
+                                                           },
+                  "run:82ba5e44d6d44f7db58fd663e1f9fd83":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.1415728-05:00",
+                                                               "id":  "run:82ba5e44d6d44f7db58fd663e1f9fd83",
+                                                               "kind":  "run"
+                                                           },
+                  "run:126dec1a9fca4659a8538270f9a5e393":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.4427974-05:00",
+                                                               "id":  "run:126dec1a9fca4659a8538270f9a5e393",
+                                                               "kind":  "run"
+                                                           },
+                  "run:7608a8165b1f43498cc4253f6609a3d3":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.4966195-05:00",
+                                                               "id":  "run:7608a8165b1f43498cc4253f6609a3d3",
+                                                               "kind":  "run"
+                                                           },
+                  "run:c4ff0960d2ac421da26b867eebb3de2c":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.6856415-05:00",
+                                                               "id":  "run:c4ff0960d2ac421da26b867eebb3de2c",
+                                                               "kind":  "run"
+                                                           },
+                  "run:9dfcbc1413ce4621b94148ff56c90908":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.7249665-05:00",
+                                                               "id":  "run:9dfcbc1413ce4621b94148ff56c90908",
+                                                               "kind":  "run"
+                                                           },
+                  "run:038862b06e214b3d89d7710727779c69":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.9256678-05:00",
+                                                               "id":  "run:038862b06e214b3d89d7710727779c69",
+                                                               "kind":  "run"
+                                                           },
+                  "run:b69abe886ff9425b8b293da0e6192946":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:55.9881250-05:00",
+                                                               "id":  "run:b69abe886ff9425b8b293da0e6192946",
+                                                               "kind":  "run"
+                                                           },
+                  "run:0bcad6b99a2049aeb3d75a9eab7ed860":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:56.1937809-05:00",
+                                                               "id":  "run:0bcad6b99a2049aeb3d75a9eab7ed860",
+                                                               "kind":  "run"
+                                                           },
+                  "run:e9f897784fd24710a1d1b964b8e25460":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:56.2488425-05:00",
+                                                               "id":  "run:e9f897784fd24710a1d1b964b8e25460",
+                                                               "kind":  "run"
+                                                           },
+                  "run:2d17d27c37124089b1d38d5d7fcb16f2":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:56.4705585-05:00",
+                                                               "id":  "run:2d17d27c37124089b1d38d5d7fcb16f2",
+                                                               "kind":  "run"
+                                                           },
+                  "run:fb45acc8270a4c23bcc8729e2c973853":  {
+                                                               "props":  {
+                                                                             "error":  "",
+                                                                             "status":  "ok"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:56.5276548-05:00",
+                                                               "id":  "run:fb45acc8270a4c23bcc8729e2c973853",
+                                                               "kind":  "run"
+                                                           },
+                  "run:b52d1ddb48ab4a6eabf770d2403a4124":  {
+                                                               "props":  {
+                                                                             "error":  "fatal: bad object refs/desktop.ini",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:59.4942573-05:00",
+                                                               "id":  "run:b52d1ddb48ab4a6eabf770d2403a4124",
+                                                               "kind":  "run"
+                                                           },
+                  "run:ffb0c5cb31da462bb9422b1f61c42c51":  {
+                                                               "props":  {
+                                                                             "error":  "fatal: bad object refs/desktop.ini",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:59.5760756-05:00",
+                                                               "id":  "run:ffb0c5cb31da462bb9422b1f61c42c51",
+                                                               "kind":  "run"
+                                                           },
+                  "run:005699869bd541b3b347cd9389e0b1a8":  {
+                                                               "props":  {
+                                                                             "error":  "fatal: bad object refs/desktop.ini",
+                                                                             "status":  "error"
+                                                                         },
+                                                               "ts":  "2025-12-12T04:55:59.6358199-05:00",
+                                                               "id":  "run:005699869bd541b3b347cd9389e0b1a8",
+                                                               "kind":  "run"
+                                                           }
+              }
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://infinityxonesystems.com/schemas/actions/action.schema.json",
+  "title": "Action",
+  "description": "Schema for an action in the Infinity XOS platform",
+  "type": "object",
+  "required": ["id", "capability_id", "repo", "service", "http"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^act\\.[a-z_]+\\.[a-z_]+$",
+      "description": "Unique action ID (e.g., act.workspace.send_email)"
+    },
+    "capability_id": {
+      "type": "string",
+      "description": "Reference to capability this action implements"
+    },
+    "repo": {
+      "type": "string",
+      "description": "Repository that implements this action"
+    },
+    "service": {
+      "type": "string",
+      "description": "Service name within the repository"
+    },
+    "http": {
+      "type": "object",
+      "required": ["method", "path"],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^/"
+        },
+        "base_url": {
+          "type": "string",
+          "description": "Optional base URL override"
+        }
+      }
+    },
+    "auth": {
+      "type": "string",
+      "enum": ["internal_api_key", "oauth2", "jwt", "public"],
+      "description": "Authentication method required"
+    },
+    "input_schema_ref": {
+      "type": "string",
+      "description": "Path to input JSON schema"
+    },
+    "output_schema_ref": {
+      "type": "string",
+      "description": "Path to output JSON schema"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of what this action does"
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "input": {
+            "type": "object"
+          },
+          "output": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "deprecated": {
+      "type": "boolean",
+      "description": "Whether this action is deprecated"
+    },
+    "deprecation_notice": {
+      "type": "string",
+      "description": "Deprecation message if deprecated"
+    }
+  }
+}

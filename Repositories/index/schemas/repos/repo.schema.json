@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://infinityxonesystems.com/schemas/repos/repo.schema.json",
+  "title": "Repository",
+  "description": "Schema for a repository in the Infinity XOS platform",
+  "type": "object",
+  "required": ["id", "name", "repo", "stage", "domain", "tier", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(S[0-8]\\.[0-9]+|EXT\\.[0-9]+)$",
+      "description": "Unique identifier (e.g., S2.1 or EXT.1)"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Repository name (lowercase, snake_case)"
+    },
+    "repo": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+$",
+      "description": "Full repository path (owner/name)"
+    },
+    "stage": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 8,
+      "description": "Strategic stage (0-8)"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Domain classification"
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["tier_0", "tier_1", "tier_2", "tier_3"],
+      "description": "Criticality tier"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "partial",
+        "scaffold",
+        "experimental",
+        "deprecated",
+        "archived"
+      ],
+      "description": "Current status"
+    },
+    "runtime": {
+      "type": "boolean",
+      "description": "Whether this is a runtime service"
+    },
+    "stack": {
+      "type": "string",
+      "description": "Primary technology stack"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for classification"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of dependency repository names"
+    }
+  }
+}

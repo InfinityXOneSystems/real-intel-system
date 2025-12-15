@@ -1,0 +1,78 @@
+param([Parameter(Mandatory)][string]$ROOT)
+$ErrorActionPreference="Stop"
+Set-StrictMode -Version Latest
+
+function Import-Maybe([string]$Path){ if(Test-Path $Path){ Import-Module $Path -Force; return $true }; return $false }
+$scfOk = Import-Maybe (Join-Path $ROOT 'system\governor\scf.psm1')
+$ucgOk = Import-Maybe (Join-Path $ROOT 'system\meta\ucg\ucg.psm1')
+
+if($scfOk -and (Get-Command Assert-ScfRunAllowed -ErrorAction SilentlyContinue)){
+  Assert-ScfRunAllowed -ROOT $ROOT -Subsystem 'map'
+}
+if($ucgOk -and (Get-Command Initialize-Ucg -ErrorAction SilentlyContinue)){
+  Initialize-Ucg -ROOT $ROOT
+}
+
+$run=$null
+if($ucgOk -and (Get-Command Start-UcgRun -ErrorAction SilentlyContinue)){
+  $run=Start-UcgRun -ROOT $ROOT -Subsystem 'map' -Script $PSCommandPath
+}
+
+try {
+  Write-Host 'Omega Mapper - Running (hotfix)' -ForegroundColor Yellow
+
+  $outDir = Join-Path $ROOT 'system\map'
+  if(-not (Test-Path $outDir)){ New-Item -ItemType Directory -Force -Path $outDir | Out-Null }
+
+  $out = Join-Path $outDir 'system_map.json'
+
+  # Keep mapping FAANG-sane: exclude heavy dirs and cap output size
+  $exclude = @('.git','node_modules','.next','dist','build','Repositories','system\backups')
+
+  $items = New-Object System.Collections.Generic.List[object]
+  $count = 0
+  $max = 20000
+
+  Get-ChildItem -LiteralPath $ROOT -Recurse -Force -ErrorAction SilentlyContinue | ForEach-Object {
+    $p = $_.FullName
+    foreach($ex in $exclude){ if($p -like ("*" + $ex + "*")){ return } }
+    $count++
+    if($count -gt $max){ return }
+    $rel = $p.Substring($ROOT.Length).TrimStart('\')
+    $items.Add([pscustomobject]@{
+      path = $rel
+      is_dir = [bool]$_.PSIsContainer
+      bytes = $(if($_.PSIsContainer){ 0 } else { [int64]$_.Length })
+      modified = ($_.LastWriteTimeUtc.ToString('o'))
+    }) | Out-Null
+  }
+
+  $payload = [pscustomobject]@{
+    ts = (Get-Date).ToString('o')
+    root = $ROOT
+    total_written = $items.Count
+    capped = [bool]($count -gt $max)
+    max = $max
+    items = $items
+  }
+
+  $payload | ConvertTo-Json -Depth 12 | Out-File -FilePath $out -Encoding utf8
+
+  if($ucgOk -and (Get-Command Write-UcgEvent -ErrorAction SilentlyContinue)){
+    Write-UcgEvent -ROOT $ROOT -Type 'map.tick' -Data @{ status='ok'; map_path=$out; count=$items.Count; capped=[bool]($count -gt $max) }
+  }
+  if($ucgOk -and $run -and (Get-Command Stop-UcgRun -ErrorAction SilentlyContinue)){
+    Stop-UcgRun -ROOT $ROOT -RunId $run -Status 'ok'
+  }
+
+  Write-Host 'Mapper OK' -ForegroundColor Green
+} catch {
+  $err=$_.Exception.Message
+  if($ucgOk -and (Get-Command Write-UcgEvent -ErrorAction SilentlyContinue)){
+    Write-UcgEvent -ROOT $ROOT -Type 'map.tick' -Data @{ status='error'; error=$err }
+  }
+  if($ucgOk -and $run -and (Get-Command Stop-UcgRun -ErrorAction SilentlyContinue)){
+    Stop-UcgRun -ROOT $ROOT -RunId $run -Status 'error' -Error $err
+  }
+  throw
+}

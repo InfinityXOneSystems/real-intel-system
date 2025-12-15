@@ -1,0 +1,14 @@
+{
+    "budgets":  {
+                    "max_disk_mb_per_tick":  256,
+                    "max_files_changed_per_tick":  200,
+                    "max_cpu_pct":  85
+                },
+    "flags":  {
+                  "network_ingest":  true,
+                  "safe_mode":  false,
+                  "destructive_ops":  false
+              },
+    "mode":  "normal",
+    "updated":  "2025-12-11T23:12:00.3443481-05:00"
+}

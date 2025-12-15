@@ -1,0 +1,59 @@
+param([string]$ROOT)
+$ErrorActionPreference="Stop"; Set-StrictMode -Version Latest
+
+Import-Module "$ROOT\system\governor\scf.psm1" -Force
+Import-Module "$ROOT\system\meta\ucg\ucg.psm1" -Force
+
+Assert-ScfRunAllowed -ROOT $ROOT -Subsystem "state.publish"
+$run = Start-UcgRun -ROOT $ROOT -Subsystem "state.publish" -Script $PSCommandPath
+
+try {
+  $profile = Get-Content -Raw -Path "$ROOT\system\config\infinity_profile.json" | ConvertFrom-Json
+  $stateRepoDir = $profile.paths.state_repo_dir
+
+  if (-not (Test-Path $stateRepoDir)) {
+    Write-Host "⚠ State repo not present locally yet: $stateRepoDir" -ForegroundColor Yellow
+    Write-Host "   Run repo sync first (repo_sync_engine.ps1)." -ForegroundColor Yellow
+    Write-UcgEvent -ROOT $ROOT -Type "state.publish.tick" -Data @{ status="skipped"; reason="state_repo_missing"; path=$stateRepoDir }
+    Stop-UcgRun -ROOT $ROOT -RunId $run -Status "ok"
+    return
+  }
+
+  $dst = Join-Path $stateRepoDir "infinity_state"
+  $dstUcg = Join-Path $dst "ucg"
+  $dstGov = Join-Path $dst "governor"
+  $dstCfg = Join-Path $dst "config"
+  New-Item -ItemType Directory -Force -Path $dstUcg,$dstGov,$dstCfg | Out-Null
+
+  Copy-Item -Force "$ROOT\system\meta\ucg\graph.json" $dstUcg -ErrorAction SilentlyContinue
+  Copy-Item -Force "$ROOT\system\meta\ucg\stats.json" $dstUcg -ErrorAction SilentlyContinue
+  Copy-Item -Recurse -Force "$ROOT\system\meta\ucg\snapshots" $dstUcg -ErrorAction SilentlyContinue
+
+  Copy-Item -Force "$ROOT\system\governor\mode.json" $dstGov -ErrorAction SilentlyContinue
+  Copy-Item -Force "$ROOT\system\governor\policies.json" $dstGov -ErrorAction SilentlyContinue
+
+  Copy-Item -Force "$ROOT\system\config\infinity_profile.json" $dstCfg -ErrorAction SilentlyContinue
+  Copy-Item -Force "$ROOT\system\map\system_map.json" $dstCfg -ErrorAction SilentlyContinue
+
+  # If it's a git repo, commit+push (best-effort)
+  if (Test-Path (Join-Path $stateRepoDir ".git")) {
+    Push-Location $stateRepoDir
+    try {
+      git add . | Out-Null
+      $status = git status --porcelain
+      if ($status) {
+        $msg = "chore(state): publish InfinityXOS memory snapshot $(Get-Date -Format o)"
+        git commit -m $msg | Out-Null
+        try { git push | Out-Null } catch {}
+      }
+    } finally { Pop-Location }
+  }
+
+  Write-UcgEvent -ROOT $ROOT -Type "state.publish.tick" -Data @{ status="ok"; state_repo_dir=$stateRepoDir }
+  Stop-UcgRun -ROOT $ROOT -RunId $run -Status "ok"
+  Write-Host "✔ State publish complete => $stateRepoDir\infinity_state" -ForegroundColor Green
+} catch {
+  Write-UcgEvent -ROOT $ROOT -Type "state.publish.tick" -Data @{ status="error"; error=$_.Exception.Message }
+  Stop-UcgRun -ROOT $ROOT -RunId $run -Status "error" -Error $_.Exception.Message
+  throw
+}

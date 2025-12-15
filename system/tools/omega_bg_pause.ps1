@@ -1,0 +1,1 @@
+New-Item -ItemType File -Force -Path "C:\Users\JARVIS\OneDrive\Documents\InfinityXOneSystems\system\governor\pause.flag" | Out-Null; Write-Host "⏸ Paused (pause.flag created)." -ForegroundColor Yellow

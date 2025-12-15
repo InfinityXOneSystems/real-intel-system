@@ -1,0 +1,950 @@
+[
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.env",
+        "Size":  5493
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\API_VALIDATION_REPORT.md",
+        "Size":  6796
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\AUTONOMOUS_QUICK_START.md",
+        "Size":  5506
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\AUTO_FEATURES_INDEX.md",
+        "Size":  6535
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\AUTO_KEEP_APPROVE_GUIDE.md",
+        "Size":  9332
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\COMPLIANCE_STANDARDS_FRAMEWORK.md",
+        "Size":  12591
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\DEPLOYMENT_CHECKLIST.md",
+        "Size":  12811
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docker-compose.yml",
+        "Size":  1353
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\Dockerfile",
+        "Size":  985
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\ENTERPRISE_TRANSFORMATION_ROADMAP.md",
+        "Size":  29444
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\hardhat.config.ts",
+        "Size":  1132
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\IMPLEMENTATION_SUMMARY_AUTO_FEATURES.md",
+        "Size":  13548
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\INDEX.md",
+        "Size":  9086
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\launch.py",
+        "Size":  6883
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\orchestration_output.txt",
+        "Size":  20284
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\orchestrator-infinity-ai.ps1",
+        "Size":  21206
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\package.json",
+        "Size":  3868
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\PROJECT_COMPLETE.md",
+        "Size":  15493
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\QUICK_REFERENCE_AUTO_FEATURES.md",
+        "Size":  5089
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\README.md",
+        "Size":  12568
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\README_AUTONOMOUS.md",
+        "Size":  9483
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\setup-system.ps1",
+        "Size":  3170
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\SYSTEM_ANALYSIS_SUMMARY.md",
+        "Size":  16307
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\SYSTEM_MANIFEST.md",
+        "Size":  12464
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\temp_files.json",
+        "Size":  0
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\tsconfig.json",
+        "Size":  723
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\validation_run.txt",
+        "Size":  11158
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\config",
+        "Size":  322
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\description",
+        "Size":  73
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\FETCH_HEAD",
+        "Size":  0
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\HEAD",
+        "Size":  21
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\applypatch-msg.sample",
+        "Size":  478
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\commit-msg.sample",
+        "Size":  896
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\fsmonitor-watchman.sample",
+        "Size":  4726
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\post-update.sample",
+        "Size":  189
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\pre-applypatch.sample",
+        "Size":  424
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\pre-commit.sample",
+        "Size":  1649
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\pre-merge-commit.sample",
+        "Size":  416
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\pre-push.sample",
+        "Size":  1374
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\pre-rebase.sample",
+        "Size":  4898
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\pre-receive.sample",
+        "Size":  544
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\prepare-commit-msg.sample",
+        "Size":  1492
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\push-to-checkout.sample",
+        "Size":  2783
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\sendemail-validate.sample",
+        "Size":  2308
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\hooks\\update.sample",
+        "Size":  3650
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.git\\info\\exclude",
+        "Size":  240
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\.github\\workflows\\intelligence-cron.yml",
+        "Size":  3444
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\compliance_monitor_agent.ps1",
+        "Size":  20073
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\sop_enforcement_agent.ps1",
+        "Size":  22392
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\acquisition-hunter\\identity.ts",
+        "Size":  7203
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\acquisition-hunter\\identity.ts.bak",
+        "Size":  7203
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\ai-governance-officer\\identity.ts",
+        "Size":  4603
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\ai-governance-officer\\identity.ts.bak",
+        "Size":  4603
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\client-relations\\identity.ts",
+        "Size":  6525
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\client-relations\\identity.ts.bak",
+        "Size":  6525
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\commercial-strategist\\identity.ts",
+        "Size":  5660
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\commercial-strategist\\identity.ts.bak",
+        "Size":  5660
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\commercial-titan\\identity.ts",
+        "Size":  4709
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\commercial-titan\\identity.ts.bak",
+        "Size":  4709
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\commercial-titan\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\communication-director\\identity.ts",
+        "Size":  5648
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\communication-director\\identity.ts.bak",
+        "Size":  5648
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\creative-designer\\identity.ts",
+        "Size":  5438
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\creative-designer\\identity.ts.bak",
+        "Size":  5438
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\customer-support\\identity.ts",
+        "Size":  5612
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\customer-support\\identity.ts.bak",
+        "Size":  5612
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\cybersecurity-chief\\identity.ts",
+        "Size":  4677
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\cybersecurity-chief\\identity.ts.bak",
+        "Size":  4677
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\data-analyst\\identity.ts",
+        "Size":  5554
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\data-analyst\\identity.ts.bak",
+        "Size":  5554
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\deal-closer\\identity.ts",
+        "Size":  5592
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\deal-closer\\identity.ts.bak",
+        "Size":  5592
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\deal-sniper\\identity.ts",
+        "Size":  6114
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\deal-sniper\\identity.ts.bak",
+        "Size":  6114
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\deal-sniper\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\aura-identity.ts",
+        "Size":  14431
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\aura-intelligence.ts",
+        "Size":  11758
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\echo-identity.ts",
+        "Size":  14452
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\INVOCATION_PROTOCOL.md",
+        "Size":  3460
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\communication_module\\dialog_flow.py",
+        "Size":  45
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\creative_core\\idea_generator.py",
+        "Size":  47
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\docs\\README.md",
+        "Size":  66
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\emotional_engine\\heart_logic.py",
+        "Size":  50
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\ethics_and_alignment\\soul_contracts.py",
+        "Size":  39
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\finsynapse\\agent.log",
+        "Size":  199
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\finsynapse\\agent.py",
+        "Size":  137
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\finsynapse\\blueprint.json",
+        "Size":  235
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\finsynapse\\main.py",
+        "Size":  2648
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\finsynapse\\manifest.json",
+        "Size":  150
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\finsynapse\\README.md",
+        "Size":  408
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\language_expansion\\universal_speech.py",
+        "Size":  69
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\memory_soul\\life_moments.json",
+        "Size":  82
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\rituals_and_relationships\\bonding_cycle.py",
+        "Size":  47
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\echo\\blueprint\\vision_and_voice\\voice_selector.py",
+        "Size":  54
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\engineering-companion\\identity.ts",
+        "Size":  5669
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\engineering-companion\\identity.ts.bak",
+        "Size":  5669
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\executive-assistant\\identity.ts",
+        "Size":  5709
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\executive-assistant\\identity.ts.bak",
+        "Size":  5709
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\financial-advisor\\identity.ts",
+        "Size":  5548
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\financial-advisor\\identity.ts.bak",
+        "Size":  5548
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\identity.ts",
+        "Size":  10736
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\identity.ts.bak",
+        "Size":  10736
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\INVOCATION_PROTOCOL.md",
+        "Size":  3460
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\communication_module\\dialog_flow.py",
+        "Size":  45
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\creative_core\\idea_generator.py",
+        "Size":  47
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\docs\\README.md",
+        "Size":  66
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\emotional_engine\\heart_logic.py",
+        "Size":  50
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\ethics_and_alignment\\soul_contracts.py",
+        "Size":  39
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\finsynapse\\agent.log",
+        "Size":  199
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\finsynapse\\agent.py",
+        "Size":  137
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\finsynapse\\blueprint.json",
+        "Size":  235
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\finsynapse\\main.py",
+        "Size":  2648
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\finsynapse\\manifest.json",
+        "Size":  150
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\finsynapse\\README.md",
+        "Size":  408
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\language_expansion\\universal_speech.py",
+        "Size":  69
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\memory_soul\\life_moments.json",
+        "Size":  82
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\rituals_and_relationships\\bonding_cycle.py",
+        "Size":  47
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\finsynapse\\blueprint\\vision_and_voice\\voice_selector.py",
+        "Size":  54
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\first-time-guide\\identity.ts",
+        "Size":  4450
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\first-time-guide\\identity.ts.bak",
+        "Size":  4450
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\first-time-guide\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\growth-architect\\identity.ts",
+        "Size":  5603
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\growth-architect\\identity.ts.bak",
+        "Size":  5603
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\hr-recruiting\\identity.ts",
+        "Size":  5655
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\hr-recruiting\\identity.ts.bak",
+        "Size":  5655
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\it-service-desk\\identity.ts",
+        "Size":  5612
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\it-service-desk\\identity.ts.bak",
+        "Size":  5612
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\knowledge-manager\\identity.ts",
+        "Size":  5645
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\knowledge-manager\\identity.ts.bak",
+        "Size":  5645
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\land-developer\\identity.ts",
+        "Size":  4736
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\land-developer\\identity.ts.bak",
+        "Size":  4736
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\land-developer\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\legal-compliance\\identity.ts",
+        "Size":  5547
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\legal-compliance\\identity.ts.bak",
+        "Size":  5547
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\luxury-specialist\\identity.ts",
+        "Size":  5029
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\luxury-specialist\\identity.ts.bak",
+        "Size":  5029
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\luxury-specialist\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\maintenance-agent\\identity.ts",
+        "Size":  4974
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\maintenance-agent\\identity.ts.bak",
+        "Size":  4974
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\market-intelligence\\identity.ts",
+        "Size":  5611
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\market-intelligence\\identity.ts.bak",
+        "Size":  5611
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\market-prophet\\identity.ts",
+        "Size":  4753
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\market-prophet\\identity.ts.bak",
+        "Size":  4753
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\market-prophet\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\marketing-content-creator\\identity.ts",
+        "Size":  5600
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\marketing-content-creator\\identity.ts.bak",
+        "Size":  5600
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\multifamily-master\\identity.ts",
+        "Size":  4842
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\multifamily-master\\identity.ts.bak",
+        "Size":  4842
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\multifamily-master\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\negotiation-ninja\\identity.ts",
+        "Size":  4790
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\negotiation-ninja\\identity.ts.bak",
+        "Size":  4790
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\negotiation-ninja\\INVOCATION_PROTOCOL.md",
+        "Size":  3487
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\onboarding-specialist\\identity.ts",
+        "Size":  5573
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\onboarding-specialist\\identity.ts.bak",
+        "Size":  5573
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\operations-director\\identity.ts",
+        "Size":  5576
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\operations-director\\identity.ts.bak",
+        "Size":  5576
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\procurement-specialist\\identity.ts",
+        "Size":  5712
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\procurement-specialist\\identity.ts.bak",
+        "Size":  5712
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\product-manager\\identity.ts",
+        "Size":  5557
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\product-manager\\identity.ts.bak",
+        "Size":  5557
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\project-manager\\identity.ts",
+        "Size":  5531
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\project-manager\\identity.ts.bak",
+        "Size":  5531
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\quality-assurance\\identity.ts",
+        "Size":  5545
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\quality-assurance\\identity.ts.bak",
+        "Size":  5545
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\sales-development\\identity.ts",
+        "Size":  5621
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\sales-development\\identity.ts.bak",
+        "Size":  5621
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\shadow-agent\\identity.ts",
+        "Size":  4780
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\shadow-agent\\identity.ts.bak",
+        "Size":  4780
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\shadow-wallet-api\\identity.ts",
+        "Size":  4576
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\shadow-wallet-api\\identity.ts.bak",
+        "Size":  4576
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\strategy-advisor\\identity.ts",
+        "Size":  5649
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\strategy-advisor\\identity.ts.bak",
+        "Size":  5649
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\systems-architect\\identity.ts",
+        "Size":  4691
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\systems-architect\\identity.ts.bak",
+        "Size":  4691
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\wealth-architect\\identity.ts",
+        "Size":  4683
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\agents\\wealth-architect\\identity.ts.bak",
+        "Size":  4683
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\config\\treasure-coast-config.ts",
+        "Size":  5545
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\config\\vision-cortex-integration.json",
+        "Size":  1469
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\contracts\\RealEstateEscrow.sol",
+        "Size":  9753
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\data\\distress-keywords-expanded.ts",
+        "Size":  24528
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docs\\AGENT_LOCATION_MAP.md",
+        "Size":  3779
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docs\\AUTONOMOUS_AGENT_GUIDE.md",
+        "Size":  13024
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docs\\AUTO_VALIDATE_AGENT_README.md",
+        "Size":  9744
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docs\\auto_validate_tag_push_agent.py",
+        "Size":  17551
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docs\\DEPLOYMENT_GUIDE.md",
+        "Size":  11753
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docs\\IMPLEMENTATION_SUMMARY.md",
+        "Size":  13259
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\docs\\invoke_auto_validate_push.ps1",
+        "Size":  6667
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\COMPLETE_CROSS_REFERENCE.md",
+        "Size":  12808
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\INDEX_NAVIGATION.md",
+        "Size":  11245
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\00-MASTER-INDEX\\ENTERPRISE_INDEX.md",
+        "Size":  16527
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\05-DOCUMENTS\\DOCUMENT_TEMPLATES.json",
+        "Size":  14607
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\05-DOCUMENTS\\D-INDEX\\doc-index.ts",
+        "Size":  12797
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\05-DOCUMENTS\\TAXONOMY\\REAL_ESTATE_TAXONOMY.md",
+        "Size":  7604
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\07-TASKS\\LIVE_TASK_TRACKER.md",
+        "Size":  10868
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\enterprise\\07-TASKS\\TASK_MANIFEST.json",
+        "Size":  12928
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\autonomous\\autonomous_20251211_014358.log",
+        "Size":  6175
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\autonomous\\autonomous_20251211_015841.log",
+        "Size":  4169
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\autonomous\\autonomous_20251211_035517.log",
+        "Size":  6110
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\orchestration\\master_20251211_035509.log",
+        "Size":  9308
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\sop-enforcement\\sop_enforcement_20251211_033816.log",
+        "Size":  1721
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\sop-enforcement\\sop_enforcement_20251211_040109.log",
+        "Size":  1756
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\sop-enforcement\\sop_enforcement_20251211_040118.log",
+        "Size":  1977
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\validation\\validation_20251211_040805.log",
+        "Size":  4749
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\logs\\validation\\validation_20251211_040933.log",
+        "Size":  4749
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\reports\\autonomous\\analysis_20251211_014358.json",
+        "Size":  88015
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\reports\\autonomous\\analysis_20251211_035517.json",
+        "Size":  88015
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\reports\\sop-enforcement\\sop_report_20251211_040109.json",
+        "Size":  20388
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\reports\\sop-enforcement\\sop_report_20251211_040118.json",
+        "Size":  20387
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\reports\\validation\\validation_report_20251211_040933.txt",
+        "Size":  2336
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1",
+        "Size":  35503
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\auto_validation_agent.ps1",
+        "Size":  12169
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\master_orchestration.ps1",
+        "Size":  6809
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\startup.bat",
+        "Size":  4795
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\startup.sh",
+        "Size":  4765
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\sync-validated-api-keys.ps1",
+        "Size":  8304
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\system_health_agent.ps1",
+        "Size":  6902
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\orchestrator.ts",
+        "Size":  9859
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\types.ts",
+        "Size":  8354
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\ai-voice\\voice-system.ts",
+        "Size":  11754
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\autonomous\\agent.ts",
+        "Size":  17406
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\autonomous\\scheduler.ts",
+        "Size":  9891
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\crawlers\\government-data-crawler.ts",
+        "Size":  15016
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\crawlers\\social-media-crawler.ts",
+        "Size":  14458
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\dashboard\\server.ts",
+        "Size":  12754
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\intelligence\\emotional-state-predictor.ts",
+        "Size":  17571
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\intelligence\\intelligence-orchestrator.ts",
+        "Size":  13041
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\intelligence\\predictive-heatmap-system.ts",
+        "Size":  11595
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\intelligence\\statistical-analysis-engine.ts",
+        "Size":  13725
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\matching\\investor-matcher.ts",
+        "Size":  11731
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\smart-contracts\\coinbase-safety-wrapper.ts",
+        "Size":  9693
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\smart-contracts\\crypto-integration.ts",
+        "Size":  10983
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\smart-contracts\\google-wallet.ts",
+        "Size":  10683
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\smart-contracts\\stripe-integration.ts",
+        "Size":  8682
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\smart-contracts\\test-coinbase-safety.ts",
+        "Size":  4407
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\statistics\\scraper.ts",
+        "Size":  12336
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\utils\\google-sheets-client.ts",
+        "Size":  10639
+    },
+    {
+        "Path":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\src\\workflow\\automation-system.ts",
+        "Size":  14857
+    }
+]

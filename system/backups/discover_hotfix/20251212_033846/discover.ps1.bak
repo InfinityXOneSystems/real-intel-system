@@ -1,0 +1,46 @@
+param([Parameter(Mandatory)][string]$ROOT)
+$ErrorActionPreference="Stop"
+Set-StrictMode -Version Latest
+
+function Import-Maybe([string]$Path) {   if (Test-Path $Path) { Import-Module $Path -Force; return $true }   return $false }
+
+$scfOk = Import-Maybe (Join-Path $ROOT "system\governor\scf.psm1")
+$ucgOk = Import-Maybe (Join-Path $ROOT "system\meta\ucg\ucg.psm1")
+
+if ($scfOk -and (Get-Command Assert-ScfRunAllowed -ErrorAction SilentlyContinue)) {
+  Assert-ScfRunAllowed -ROOT $ROOT -Subsystem "ingestion.discovery"
+}
+if ($ucgOk -and (Get-Command Initialize-Ucg -ErrorAction SilentlyContinue)) { Initialize-Ucg -ROOT $ROOT }
+
+$run = $null
+if ($ucgOk -and (Get-Command Start-UcgRun -ErrorAction SilentlyContinue)) {
+  $run = Start-UcgRun -ROOT $ROOT -Subsystem "ingestion.discovery" -Script $PSCommandPath
+}
+
+try {
+  Write-Host "🕸️ Ingestion Discovery — Tick (clean)" -ForegroundColor Cyan
+  $safe = ($env:INFINITY_SAFE_MODE -eq "1")
+  $out = Join-Path $ROOT "ingestion\discovery\discovery_state.json"
+  @{
+    ts=(Get-Date).ToString("o")
+    safe_mode=$safe
+    discovered_sources=@()
+    note= (if($safe){"safe_mode: network ingest disabled"}else{"discovery scaffold: wire crawlers next"})
+  } | ConvertTo-Json -Depth 10 | Out-File -FilePath $out -Encoding utf8 -Force
+  if ($ucgOk -and (Get-Command Write-UcgEvent -ErrorAction SilentlyContinue)) {
+    Write-UcgEvent -ROOT $ROOT -Type "ingestion.discovery.tick" -Data @{ status="ok"; out_path=$out; safe_mode=$safe }
+  }
+  if ($ucgOk -and $run -and (Get-Command Stop-UcgRun -ErrorAction SilentlyContinue)) {
+    Stop-UcgRun -ROOT $ROOT -RunId $run -Status "ok"
+  }
+  Write-Host "✔ Discovery OK" -ForegroundColor Green
+} catch {
+  $err = $_.Exception.Message
+  if ($ucgOk -and (Get-Command Write-UcgEvent -ErrorAction SilentlyContinue)) {
+    Write-UcgEvent -ROOT $ROOT -Type "ingestion.discovery.tick" -Data @{ status="error"; error=$err }
+  }
+  if ($ucgOk -and $run -and (Get-Command Stop-UcgRun -ErrorAction SilentlyContinue)) {
+    Stop-UcgRun -ROOT $ROOT -RunId $run -Status "error" -Error $err
+  }
+  throw
+}

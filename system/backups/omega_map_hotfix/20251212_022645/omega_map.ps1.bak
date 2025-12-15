@@ -1,0 +1,44 @@
+param([Parameter(Mandatory)][string]$ROOT)
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+
+function Import-Maybe([string]$Path) {   if (Test-Path $Path) { Import-Module $Path -Force; return $true }   return $false }
+
+$scfOk = Import-Maybe (Join-Path $ROOT "system\governor\scf.psm1")
+$ucgOk = Import-Maybe (Join-Path $ROOT "system\meta\ucg\ucg.psm1")
+
+if ($scfOk -and (Get-Command Assert-ScfRunAllowed -ErrorAction SilentlyContinue)) {
+  Assert-ScfRunAllowed -ROOT $ROOT -Subsystem "map"
+}
+if ($ucgOk -and (Get-Command Initialize-Ucg -ErrorAction SilentlyContinue)) {
+  Initialize-Ucg -ROOT $ROOT
+}
+
+$run = $null
+if ($ucgOk -and (Get-Command Start-UcgRun -ErrorAction SilentlyContinue)) {
+  $run = Start-UcgRun -ROOT $ROOT -Subsystem "map" -Script $PSCommandPath
+}
+
+try {
+  Write-Host "🗺 Omega Mapper — Running (clean)" -ForegroundColor Yellow
+  $out = Join-Path $ROOT "system\map\system_map.json"
+  $items = Get-ChildItem -Path $ROOT -Recurse -Force -ErrorAction SilentlyContinue |
+    Select-Object FullName,Length,LastWriteTimeUtc,PsIsContainer
+  $items | ConvertTo-Json -Depth 10 | Out-File -FilePath $out -Encoding utf8 -Force
+  if ($ucgOk -and (Get-Command Write-UcgEvent -ErrorAction SilentlyContinue)) {
+    Write-UcgEvent -ROOT $ROOT -Type "map.tick" -Data @{ status="ok"; out_path=$out; count=(($items|Measure-Object).Count) }
+  }
+  if ($ucgOk -and $run -and (Get-Command Stop-UcgRun -ErrorAction SilentlyContinue)) {
+    Stop-UcgRun -ROOT $ROOT -RunId $run -Status "ok"
+  }
+  Write-Host "✔ Mapper OK" -ForegroundColor Green
+} catch {
+  $err = $_.Exception.Message
+  if ($ucgOk -and (Get-Command Write-UcgEvent -ErrorAction SilentlyContinue)) {
+    Write-UcgEvent -ROOT $ROOT -Type "map.tick" -Data @{ status="error"; error=$err }
+  }
+  if ($ucgOk -and $run -and (Get-Command Stop-UcgRun -ErrorAction SilentlyContinue)) {
+    Stop-UcgRun -ROOT $ROOT -RunId $run -Status "error" -Error $err
+  }
+  throw
+}

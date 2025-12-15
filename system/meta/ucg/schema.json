@@ -1,0 +1,17 @@
+{
+  "name": "UnifiedCognitiveGraph",
+  "version": "UCG_v1",
+  "files": {
+    "graph": "graph.json",
+    "events": "events.jsonl",
+    "stats": "stats.json",
+    "snapshots_dir": "snapshots"
+  },
+  "events": [
+    "run.started","run.stopped",
+    "kernel.tick","builder.tick","upgrade.tick","map.tick","evolution.tick",
+    "ingestion.discovery.tick","agent.market.tick",
+    "repo.sync.tick","state.publish.tick","ucg.compact.tick",
+    "governor.mode"
+  ]
+}

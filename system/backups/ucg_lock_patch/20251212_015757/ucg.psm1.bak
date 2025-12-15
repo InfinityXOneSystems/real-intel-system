@@ -1,0 +1,126 @@
+Set-StrictMode -Version Latest
+
+function Invoke-WithFileLock {
+  param([Parameter(Mandatory)][string]$LockPath, [Parameter(Mandatory)][scriptblock]$Action, [int]$TimeoutMs = 10000)
+  $sw = [System.Diagnostics.Stopwatch]::StartNew()
+  while ($true) {
+    try {
+      $fs = [System.IO.File]::Open($LockPath, [System.IO.FileMode]::OpenOrCreate, [System.IO.FileAccess]::ReadWrite, [System.IO.FileShare]::None)
+      try { return & $Action }
+      finally { $fs.Dispose() }
+    } catch {
+      if ($sw.ElapsedMilliseconds -ge $TimeoutMs) { throw "UCG lock timeout: $LockPath" }
+      Start-Sleep -Milliseconds 120
+    }
+  }
+}
+
+function Get-UcgPaths {
+  param([Parameter(Mandatory)][string]$ROOT)
+  $base = Join-Path $ROOT "system\meta\ucg"
+  $snap = Join-Path $base "snapshots"
+  return @{
+    Base      = $base
+    Graph     = (Join-Path $base "graph.json")
+    Events    = (Join-Path $base "events.jsonl")
+    Stats     = (Join-Path $base "stats.json")
+    Schema    = (Join-Path $base "schema.json")
+    Snapshots = $snap
+    Lock      = (Join-Path $base ".ucg.lock")
+  }
+}
+
+function Initialize-Ucg {
+  param([Parameter(Mandatory)][string]$ROOT)
+  $p = Get-UcgPaths -ROOT $ROOT
+  if (-not (Test-Path $p.Base)) { New-Item -ItemType Directory -Force -Path $p.Base | Out-Null }
+  if (-not (Test-Path $p.Snapshots)) { New-Item -ItemType Directory -Force -Path $p.Snapshots | Out-Null }
+
+  Invoke-WithFileLock -LockPath $p.Lock -Action {
+    if (-not (Test-Path $p.Graph)) {
+      $g = @{
+        version = "UCG_v1"
+        created = (Get-Date).ToString("o")
+        nodes   = @{}
+        edges   = @()
+      }
+      $g | ConvertTo-Json -Depth 30 | Out-File -FilePath $p.Graph -Encoding utf8
+    }
+    if (-not (Test-Path $p.Events)) { New-Item -ItemType File -Force -Path $p.Events | Out-Null }
+    if (-not (Test-Path $p.Stats)) {
+      @{ last_compact=$null; events=0; nodes=0; edges=0 } |
+        ConvertTo-Json -Depth 10 | Out-File -FilePath $p.Stats -Encoding utf8
+    }
+  } | Out-Null
+}
+
+function Write-UcgEvent {
+  param([Parameter(Mandatory)][string]$ROOT, [Parameter(Mandatory)][string]$Type, [Parameter(Mandatory)][hashtable]$Data)
+  $p = Get-UcgPaths -ROOT $ROOT
+  Initialize-Ucg -ROOT $ROOT
+  $evt = @{ ts=(Get-Date).ToString("o"); type=$Type; data=$Data }
+  $line = ($evt | ConvertTo-Json -Depth 30 -Compress)
+  Invoke-WithFileLock -LockPath $p.Lock -Action {
+    Add-Content -Path $p.Events -Value $line -Encoding utf8
+    $s = (Get-Content -Raw -Path $p.Stats | ConvertFrom-Json)
+    $s.events = [int]$s.events + 1
+    $s | ConvertTo-Json -Depth 10 | Out-File -FilePath $p.Stats -Encoding utf8
+  } | Out-Null
+}
+
+function Upsert-UcgNode {
+  param([Parameter(Mandatory)][string]$ROOT, [Parameter(Mandatory)][string]$Id, [Parameter(Mandatory)][string]$Kind, [hashtable]$Props=@{})
+  $p = Get-UcgPaths -ROOT $ROOT
+  Initialize-Ucg -ROOT $ROOT
+  Invoke-WithFileLock -LockPath $p.Lock -Action {
+    $g = (Get-Content -Raw -Path $p.Graph | ConvertFrom-Json)
+    if (-not $g.nodes) { $g | Add-Member -NotePropertyName nodes -NotePropertyValue @{} -Force }
+    $g.nodes.$Id = @{ id=$Id; kind=$Kind; ts=(Get-Date).ToString("o"); props=$Props }
+    $g | ConvertTo-Json -Depth 30 | Out-File -FilePath $p.Graph -Encoding utf8
+
+    $s = (Get-Content -Raw -Path $p.Stats | ConvertFrom-Json)
+    $s.nodes = ($g.nodes.PSObject.Properties | Measure-Object).Count
+    $s.edges = @($g.edges).Count
+    $s | ConvertTo-Json -Depth 10 | Out-File -FilePath $p.Stats -Encoding utf8
+  } | Out-Null
+}
+
+function Start-UcgRun {
+  param([Parameter(Mandatory)][string]$ROOT, [Parameter(Mandatory)][string]$Subsystem, [string]$Script=$null)
+  $runId = ([Guid]::NewGuid().ToString("n"))
+  Upsert-UcgNode -ROOT $ROOT -Id ("run:" + $runId) -Kind "run" -Props @{ subsystem=$Subsystem; script=$Script; status="started" }
+  Write-UcgEvent -ROOT $ROOT -Type "run.started" -Data @{ run_id=$runId; subsystem=$Subsystem; script=$Script }
+  return $runId
+}
+
+function Stop-UcgRun {
+  param([Parameter(Mandatory)][string]$ROOT, [Parameter(Mandatory)][string]$RunId, [Parameter(Mandatory)][string]$Status, [string]$Error=$null)
+  Upsert-UcgNode -ROOT $ROOT -Id ("run:" + $RunId) -Kind "run" -Props @{ status=$Status; error=$Error }
+  Write-UcgEvent -ROOT $ROOT -Type "run.stopped" -Data @{ run_id=$RunId; status=$Status; error=$Error }
+}
+
+function Compact-UcgEvents {
+  param([Parameter(Mandatory)][string]$ROOT, [int]$MaxLines=20000)
+  $p = Get-UcgPaths -ROOT $ROOT
+  Initialize-Ucg -ROOT $ROOT
+  Invoke-WithFileLock -LockPath $p.Lock -Action {
+    if (-not (Test-Path $p.Events)) { return }
+    $lines = Get-Content -Path $p.Events -ErrorAction SilentlyContinue
+    if (-not $lines) { return }
+    $count = $lines.Count
+    if ($count -lt $MaxLines) { return }
+
+    $stamp = (Get-Date -Format "yyyyMMdd_HHmmss")
+    $snapPath = Join-Path $p.Snapshots ("events_" + $stamp + ".jsonl")
+    $lines | Out-File -FilePath $snapPath -Encoding utf8
+    Clear-Content -Path $p.Events
+
+    $s = (Get-Content -Raw -Path $p.Stats | ConvertFrom-Json)
+    $s.last_compact = (Get-Date).ToString("o")
+    $s | ConvertTo-Json -Depth 10 | Out-File -FilePath $p.Stats -Encoding utf8
+  } | Out-Null
+
+  Write-UcgEvent -ROOT $ROOT -Type "ucg.compact.tick" -Data @{ status="ok"; max_lines=$MaxLines }
+}
+
+Export-ModuleMember -Function *-Ucg*, Invoke-WithFileLock, Get-UcgPaths, Initialize-Ucg, Compact-UcgEvents

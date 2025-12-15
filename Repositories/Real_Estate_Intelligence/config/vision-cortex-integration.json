@@ -1,0 +1,48 @@
+{
+  "system": "Real_estate_Intelligence",
+  "intelligence_provider": "vision-cortex",
+  "integration_type": "api-client",
+  "endpoints": {
+    "vision_cortex_url": "${VISION_CORTEX_API_URL:-http://vision-cortex-api:3999}",
+    "predict": "/api/intelligence/predict",
+    "reason": "/api/intelligence/reason",
+    "evolve": "/api/intelligence/evolve"
+  },
+  "use_cases": {
+    "market_prediction": {
+      "description": "Predict real estate market trends and property values",
+      "endpoint": "predict",
+      "horizons": ["1w", "1m", "1y"],
+      "signals": ["market-data", "economic-indicators", "local-trends"]
+    },
+    "investment_strategy": {
+      "description": "Strategic reasoning for real estate investments",
+      "endpoint": "reason",
+      "context": "real-estate-market",
+      "goal": "roi-optimization"
+    },
+    "playbook_evolution": {
+      "description": "Evolve real estate strategies based on market changes",
+      "endpoint": "evolve",
+      "domain": "real-estate"
+    }
+  },
+  "memory_isolation": {
+    "store_locally": true,
+    "intelligence_remote": true,
+    "namespace": "real-estate-system",
+    "local_data": [
+      "property-listings",
+      "lead-history",
+      "market-data",
+      "client-records"
+    ]
+  },
+  "client_config": {
+    "timeout_ms": 10000,
+    "retry_attempts": 3,
+    "retry_backoff_ms": 2000,
+    "cache_predictions": true,
+    "cache_ttl_seconds": 3600
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Send Email Response",
+  "type": "object",
+  "required": ["success", "message_id"],
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "message_id": {
+      "type": "string",
+      "description": "Gmail message ID"
+    },
+    "thread_id": {
+      "type": "string",
+      "description": "Gmail thread ID"
+    },
+    "scheduled": {
+      "type": "boolean",
+      "description": "Whether email was scheduled"
+    },
+    "scheduled_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "error": {
+      "type": "string",
+      "description": "Error message if success is false"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "profile_version":  "OMEGA_ALPHA_VINF",
+    "installed_at":  "2025-12-12T03:04:24.8484778-05:00",
+    "identity":  {
+                     "state_repo":  "infinity_x_one_system",
+                     "github_org":  "InfinityXOneSystems"
+                 },
+    "gcp":  {
+                "project_number":  "896380409704",
+                "project_name":  "infinity x one systems",
+                "project_id":  "infinity-x-one-systems"
+            },
+    "paths":  {
+                  "governor_dir":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\governor",
+                  "root":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems",
+                  "repositories_dir":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories",
+                  "system_dir":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system",
+                  "credential_manager_dir":  "C:\\Users\\JARVIS\\AppData\\Local\\InfinityXOne\\CredentialManager",
+                  "state_repo_dir":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\Repositories\\infinity_x_one_system",
+                  "ucg_dir":  "C:\\Users\\JARVIS\\OneDrive\\Documents\\InfinityXOneSystems\\system\\meta\\ucg"
+              },
+    "sync":  {
+                 "state_publish_min_interval_minutes":  15,
+                 "ucg_compact_min_interval_minutes":  60,
+                 "repo_sync_min_interval_minutes":  30
+             }
+}

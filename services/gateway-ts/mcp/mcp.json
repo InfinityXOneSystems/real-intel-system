@@ -1,0 +1,6 @@
+﻿{
+  "chatgpt": { "enabled": true },
+  "vscode":  { "enabled": true },
+  "github":  { "enabled": true },
+  "gcp":     { "enabled": true }
+}

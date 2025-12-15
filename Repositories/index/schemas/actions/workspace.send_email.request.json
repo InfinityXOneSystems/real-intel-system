@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Send Email Request",
+  "type": "object",
+  "required": ["to", "subject", "body"],
+  "properties": {
+    "to": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "email"
+      },
+      "minItems": 1,
+      "description": "Recipient email addresses"
+    },
+    "cc": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "email"
+      },
+      "description": "CC recipients"
+    },
+    "bcc": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "email"
+      },
+      "description": "BCC recipients"
+    },
+    "subject": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Email subject line"
+    },
+    "body": {
+      "type": "string",
+      "description": "Email body (HTML or plain text)"
+    },
+    "body_type": {
+      "type": "string",
+      "enum": ["text", "html"],
+      "default": "text"
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string"
+          },
+          "content_type": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "schedule_time": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Optional scheduled send time"
+    }
+  }
+}

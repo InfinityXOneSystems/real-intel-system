@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://infinityxonesystems.com/schemas/capabilities/capability.schema.json",
+  "title": "Capability",
+  "description": "Schema for a capability in the Infinity XOS platform",
+  "type": "object",
+  "required": ["id", "name", "description", "domain"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^cap\\.[a-z_]+\\.[a-z_]+\\.[a-z_]+$",
+      "description": "Unique capability ID (e.g., cap.workspace.email.send)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of what this capability does"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Domain this capability belongs to"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for categorization"
+    },
+    "default_owner_repo": {
+      "type": "string",
+      "description": "Default repository that implements this capability"
+    },
+    "required_permissions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Required permissions to use this capability"
+    },
+    "rate_limit": {
+      "type": "object",
+      "properties": {
+        "requests_per_minute": {
+          "type": "integer"
+        },
+        "requests_per_hour": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

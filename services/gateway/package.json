@@ -1,0 +1,4 @@
+{
+  "name": "infinityx-gateway",
+  "scripts": { "start": "node server.js" }
+}

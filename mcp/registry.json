@@ -1,0 +1,13 @@
+{
+  "mcp_version": "1.0",
+  "providers": {
+    "chatgpt": { "type": "llm", "priority": 1 },
+    "vscode":   { "type": "ide" },
+    "github":   { "type": "repo" },
+    "gcp":      { "type": "cloud" }
+  },
+  "policy": {
+    "default": "deny",
+    "allow": ["chatgpt","vscode","github","gcp"]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schedule Appointment Request",
+  "type": "object",
+  "required": ["title", "start_time", "end_time"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Event title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Event description"
+    },
+    "start_time": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Event start time (ISO 8601)"
+    },
+    "end_time": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Event end time (ISO 8601)"
+    },
+    "timezone": {
+      "type": "string",
+      "default": "UTC",
+      "description": "IANA timezone identifier"
+    },
+    "attendees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["email"],
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "response_status": {
+            "type": "string",
+            "enum": ["needsAction", "accepted", "declined", "tentative"]
+          }
+        }
+      }
+    },
+    "location": {
+      "type": "string",
+      "description": "Event location or meeting link"
+    },
+    "reminders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "method": {
+            "type": "string",
+            "enum": ["email", "popup"]
+          },
+          "minutes": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "recurrence": {
+      "type": "object",
+      "properties": {
+        "frequency": {
+          "type": "string",
+          "enum": ["daily", "weekly", "monthly", "yearly"]
+        },
+        "interval": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "until": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

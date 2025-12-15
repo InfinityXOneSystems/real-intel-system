@@ -1,0 +1,26 @@
+param([Parameter(Mandatory)][string]$ROOT)
+
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+
+$mutexName = "Global\\InfinityXOS_OmegaRun"
+$created = $false
+$mutex = New-Object System.Threading.Mutex($false, $mutexName, [ref]$created)
+$acquired = $false
+
+try {
+  $acquired = $mutex.WaitOne([TimeSpan]::FromSeconds(1))
+  if (-not $acquired) {
+    Write-Host "Omega already running (mutex busy). Skipping." -ForegroundColor Yellow
+    exit 0
+  }
+
+  $master = Join-Path (Join-Path $ROOT "system") "omega_master.ps1"
+  if (-not (Test-Path $master)) { throw "Missing omega_master.ps1: $master" }
+
+  Push-Location $ROOT
+  try { & $master -ROOT $ROOT } finally { Pop-Location }
+} finally {
+  if ($acquired) { try { $mutex.ReleaseMutex() | Out-Null } catch {} }
+  $mutex.Dispose()
+}

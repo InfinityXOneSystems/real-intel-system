@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schedule Appointment Response",
+  "type": "object",
+  "required": ["success", "event_id"],
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "event_id": {
+      "type": "string",
+      "description": "Google Calendar event ID"
+    },
+    "html_link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to view event in Google Calendar"
+    },
+    "meet_link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Google Meet link if created"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "event_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "start_time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "end_time": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "description": "Conflicting events if any"
+    },
+    "error": {
+      "type": "string"
+    }
+  }
+}

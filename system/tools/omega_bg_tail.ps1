@@ -1,0 +1,1 @@
+Get-Content -Path "C:\Users\JARVIS\OneDrive\Documents\InfinityXOneSystems\system\logs\omega_daemon.log" -Tail 200 -Wait

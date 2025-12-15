@@ -1,0 +1,904 @@
+{
+    "modules":  [
+                    {
+                        "status":  "completed",
+                        "name":  "auto-analysis",
+                        "checks":  [
+                                       {
+                                           "sourceFiles":  21,
+                                           "docFiles":  3,
+                                           "name":  "Project Structure",
+                                           "status":  "OK",
+                                           "testFiles":  0
+                                       },
+                                       {
+                                           "status":  "OK",
+                                           "name":  "Dependencies",
+                                           "devDeps":  13,
+                                           "productionDeps":  27
+                                       },
+                                       {
+                                           "status":  "OK",
+                                           "name":  "Configuration Files",
+                                           "files":  [
+                                                         {
+                                                             "file":  "tsconfig.json",
+                                                             "size":  723,
+                                                             "exists":  true
+                                                         },
+                                                         {
+                                                             "file":  "package.json",
+                                                             "size":  3868,
+                                                             "exists":  true
+                                                         },
+                                                         {
+                                                             "file":  ".env",
+                                                             "size":  5493,
+                                                             "exists":  true
+                                                         },
+                                                         {
+                                                             "file":  "docker-compose.yml",
+                                                             "size":  1353,
+                                                             "exists":  true
+                                                         },
+                                                         {
+                                                             "file":  "Dockerfile",
+                                                             "size":  985,
+                                                             "exists":  true
+                                                         },
+                                                         {
+                                                             "file":  "hardhat.config.ts",
+                                                             "size":  1132,
+                                                             "exists":  true
+                                                         }
+                                                     ]
+                                       },
+                                       {
+                                           "branch":  "HEAD",
+                                           "uncommittedChanges":  36,
+                                           "name":  "Git Repository",
+                                           "status":  "OK"
+                                       }
+                                   ],
+                        "validation":  {
+                                           "checks":  [
+                                                          {
+                                                              "status":  "VALID",
+                                                              "file":  "package.json",
+                                                              "type":  "json_syntax"
+                                                          },
+                                                          {
+                                                              "status":  "AVAILABLE",
+                                                              "node_version":  "v24.11.1",
+                                                              "type":  "environment",
+                                                              "npm_version":  "11.6.2"
+                                                          },
+                                                          {
+                                                              "status":  "ERRORS_FOUND",
+                                                              "error_output":  [
+                                                                                   "",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "\u001b[41m\u001b[37m                This is not the tsc command you are looking for                \u001b[0m",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "",
+                                                                                   "To get access to the TypeScript compiler, \u001b[34mtsc\u001b[0m, from the command line either:",
+                                                                                   "",
+                                                                                   "- Use \u001b[1mnpm install typescript\u001b[0m to first add TypeScript to your project \u001b[1mbefore\u001b[0m using npx",
+                                                                                   "- Use \u001b[1myarn\u001b[0m to avoid accidentally running code from un-installed packages"
+                                                                               ],
+                                                              "type":  "typescript"
+                                                          },
+                                                          {
+                                                              "status":  "MISSING",
+                                                              "node_modules_exists":  false,
+                                                              "type":  "dependencies"
+                                                          },
+                                                          {
+                                                              "dist_directory_exists":  false,
+                                                              "status":  "MISSING",
+                                                              "type":  "build_artifacts"
+                                                          },
+                                                          {
+                                                              "status":  "CONFIGURED",
+                                                              "env_example_exists":  false,
+                                                              "env_file_exists":  true,
+                                                              "type":  "environment_config"
+                                                          },
+                                                          {
+                                                              "status":  "RECORDED",
+                                                              "type":  "step_context",
+                                                              "context_keys":  "analysisType"
+                                                          }
+                                                      ],
+                                           "step":  "post-analysis",
+                                           "timestamp":  "2025-12-11 03:55:19",
+                                           "status":  "completed_with_issues",
+                                           "issues":  [
+                                                          "TypeScript compilation errors detected",
+                                                          "node_modules directory is missing",
+                                                          "dist/ directory not found"
+                                                      ]
+                                       }
+                    },
+                    {
+                        "status":  "completed",
+                        "issues":  [
+                                       {
+                                           "message":  "Node.js v24.11.1 and npm 11.6.2 detected",
+                                           "category":  "Environment",
+                                           "status":  "OK",
+                                           "severity":  "INFO"
+                                       },
+                                       {
+                                           "message":  "Docker daemon is running",
+                                           "category":  "Infrastructure",
+                                           "status":  "OK",
+                                           "severity":  "INFO"
+                                       },
+                                       {
+                                           "message":  "node_modules not found - packages need to be installed",
+                                           "category":  "Dependencies",
+                                           "status":  "NEEDS_ATTENTION",
+                                           "severity":  "WARN"
+                                       },
+                                       {
+                                           "message":  "dist/ directory not found - project needs to be built",
+                                           "category":  "Build",
+                                           "status":  "NEEDS_ATTENTION",
+                                           "severity":  "WARN"
+                                       },
+                                       {
+                                           "message":  "Found 69 environment variables configured",
+                                           "category":  "Configuration",
+                                           "status":  "OK",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                        "name":  "auto-diagnosis",
+                        "validation":  {
+                                           "checks":  [
+                                                          {
+                                                              "status":  "VALID",
+                                                              "file":  "package.json",
+                                                              "type":  "json_syntax"
+                                                          },
+                                                          {
+                                                              "status":  "AVAILABLE",
+                                                              "node_version":  "v24.11.1",
+                                                              "type":  "environment",
+                                                              "npm_version":  "11.6.2"
+                                                          },
+                                                          {
+                                                              "status":  "ERRORS_FOUND",
+                                                              "error_output":  [
+                                                                                   "",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "\u001b[41m\u001b[37m                This is not the tsc command you are looking for                \u001b[0m",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "",
+                                                                                   "To get access to the TypeScript compiler, \u001b[34mtsc\u001b[0m, from the command line either:",
+                                                                                   "",
+                                                                                   "- Use \u001b[1mnpm install typescript\u001b[0m to first add TypeScript to your project \u001b[1mbefore\u001b[0m using npx",
+                                                                                   "- Use \u001b[1myarn\u001b[0m to avoid accidentally running code from un-installed packages"
+                                                                               ],
+                                                              "type":  "typescript"
+                                                          },
+                                                          {
+                                                              "status":  "MISSING",
+                                                              "node_modules_exists":  false,
+                                                              "type":  "dependencies"
+                                                          },
+                                                          {
+                                                              "dist_directory_exists":  false,
+                                                              "status":  "MISSING",
+                                                              "type":  "build_artifacts"
+                                                          },
+                                                          {
+                                                              "status":  "CONFIGURED",
+                                                              "env_example_exists":  false,
+                                                              "env_file_exists":  true,
+                                                              "type":  "environment_config"
+                                                          },
+                                                          {
+                                                              "status":  "RECORDED",
+                                                              "type":  "step_context",
+                                                              "context_keys":  "issueCount"
+                                                          }
+                                                      ],
+                                           "step":  "post-diagnosis",
+                                           "timestamp":  "2025-12-11 03:55:36",
+                                           "status":  "completed_with_issues",
+                                           "issues":  [
+                                                          "TypeScript compilation errors detected",
+                                                          "node_modules directory is missing",
+                                                          "dist/ directory not found"
+                                                      ]
+                                       }
+                    },
+                    {
+                        "status":  "completed",
+                        "validation":  {
+                                           "checks":  [
+                                                          {
+                                                              "status":  "VALID",
+                                                              "file":  "package.json",
+                                                              "type":  "json_syntax"
+                                                          },
+                                                          {
+                                                              "status":  "AVAILABLE",
+                                                              "node_version":  "v24.11.1",
+                                                              "type":  "environment",
+                                                              "npm_version":  "11.6.2"
+                                                          },
+                                                          {
+                                                              "status":  "ERRORS_FOUND",
+                                                              "error_output":  [
+                                                                                   "",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "\u001b[41m\u001b[37m                This is not the tsc command you are looking for                \u001b[0m",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "",
+                                                                                   "To get access to the TypeScript compiler, \u001b[34mtsc\u001b[0m, from the command line either:",
+                                                                                   "",
+                                                                                   "- Use \u001b[1mnpm install typescript\u001b[0m to first add TypeScript to your project \u001b[1mbefore\u001b[0m using npx",
+                                                                                   "- Use \u001b[1myarn\u001b[0m to avoid accidentally running code from un-installed packages"
+                                                                               ],
+                                                              "type":  "typescript"
+                                                          },
+                                                          {
+                                                              "status":  "MISSING",
+                                                              "node_modules_exists":  false,
+                                                              "type":  "dependencies"
+                                                          },
+                                                          {
+                                                              "dist_directory_exists":  false,
+                                                              "status":  "MISSING",
+                                                              "type":  "build_artifacts"
+                                                          },
+                                                          {
+                                                              "status":  "CONFIGURED",
+                                                              "env_example_exists":  false,
+                                                              "env_file_exists":  true,
+                                                              "type":  "environment_config"
+                                                          },
+                                                          {
+                                                              "status":  "RECORDED",
+                                                              "type":  "step_context",
+                                                              "context_keys":  "fixCount"
+                                                          }
+                                                      ],
+                                           "step":  "post-fix",
+                                           "timestamp":  "2025-12-11 03:58:16",
+                                           "status":  "completed_with_issues",
+                                           "issues":  [
+                                                          "TypeScript compilation errors detected",
+                                                          "node_modules directory is missing",
+                                                          "dist/ directory not found"
+                                                      ]
+                                       },
+                        "name":  "auto-fix",
+                        "fixes":  [
+                                      {
+                                          "autoApproved":  true,
+                                          "status":  "FAILED",
+                                          "name":  "Install Dependencies",
+                                          "action":  "npm install"
+                                      },
+                                      {
+                                          "autoApproved":  true,
+                                          "status":  "FAILED",
+                                          "name":  "Build TypeScript",
+                                          "action":  "npm run build"
+                                      },
+                                      {
+                                          "output":  [
+                                                         "",
+                                                         "\u003e real-estate-intelligence@1.0.0 typecheck",
+                                                         "\u003e tsc --noEmit",
+                                                         "",
+                                                         {
+                                                             "Exception":  {
+                                                                               "SerializedRemoteException":  null,
+                                                                               "SerializedRemoteInvocationInfo":  null,
+                                                                               "ErrorRecord":  {
+                                                                                                   "Exception":  {
+                                                                                                                     "Message":  "\u0027tsc\u0027 is not recognized as an internal or external command,",
+                                                                                                                     "Data":  {
+
+                                                                                                                              },
+                                                                                                                     "InnerException":  null,
+                                                                                                                     "TargetSite":  null,
+                                                                                                                     "StackTrace":  null,
+                                                                                                                     "HelpLink":  null,
+                                                                                                                     "Source":  null,
+                                                                                                                     "HResult":  -2146233087
+                                                                                                                 },
+                                                                                                   "TargetObject":  null,
+                                                                                                   "CategoryInfo":  {
+                                                                                                                        "Category":  0,
+                                                                                                                        "Activity":  "",
+                                                                                                                        "Reason":  "ParentContainsErrorRecordException",
+                                                                                                                        "TargetName":  "",
+                                                                                                                        "TargetType":  ""
+                                                                                                                    },
+                                                                                                   "FullyQualifiedErrorId":  "RuntimeException",
+                                                                                                   "ErrorDetails":  null,
+                                                                                                   "InvocationInfo":  null,
+                                                                                                   "ScriptStackTrace":  null,
+                                                                                                   "PipelineIterationInfo":  [
+
+                                                                                                                             ]
+                                                                                               },
+                                                                               "WasThrownFromThrowStatement":  false,
+                                                                               "Message":  "\u0027tsc\u0027 is not recognized as an internal or external command,",
+                                                                               "Data":  {
+
+                                                                                        },
+                                                                               "InnerException":  null,
+                                                                               "TargetSite":  null,
+                                                                               "StackTrace":  null,
+                                                                               "HelpLink":  null,
+                                                                               "Source":  null,
+                                                                               "HResult":  -2146233087
+                                                                           },
+                                                             "TargetObject":  "\u0027tsc\u0027 is not recognized as an internal or external command,",
+                                                             "CategoryInfo":  {
+                                                                                  "Category":  0,
+                                                                                  "Activity":  "",
+                                                                                  "Reason":  "RemoteException",
+                                                                                  "TargetName":  "\u0027tsc\u0027 is not recognized as an internal or external command,",
+                                                                                  "TargetType":  "String"
+                                                                              },
+                                                             "FullyQualifiedErrorId":  "NativeCommandError",
+                                                             "ErrorDetails":  null,
+                                                             "InvocationInfo":  {
+                                                                                    "MyCommand":  {
+                                                                                                      "Path":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Extension":  ".exe",
+                                                                                                      "Definition":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Source":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Version":  {
+                                                                                                                      "Major":  24,
+                                                                                                                      "Minor":  11,
+                                                                                                                      "Build":  1,
+                                                                                                                      "Revision":  0,
+                                                                                                                      "MajorRevision":  0,
+                                                                                                                      "MinorRevision":  0
+                                                                                                                  },
+                                                                                                      "Visibility":  0,
+                                                                                                      "OutputType":  [
+                                                                                                                         {
+                                                                                                                             "Name":  "System.String",
+                                                                                                                             "Type":  "string",
+                                                                                                                             "TypeDefinitionAst":  null
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                      "Name":  "node.exe",
+                                                                                                      "CommandType":  32,
+                                                                                                      "ModuleName":  "",
+                                                                                                      "Module":  null,
+                                                                                                      "RemotingCapability":  1,
+                                                                                                      "Parameters":  null,
+                                                                                                      "ParameterSets":  null
+                                                                                                  },
+                                                                                    "BoundParameters":  {
+
+                                                                                                        },
+                                                                                    "UnboundArguments":  [
+
+                                                                                                         ],
+                                                                                    "ScriptLineNumber":  1,
+                                                                                    "OffsetInLine":  1,
+                                                                                    "HistoryId":  -1,
+                                                                                    "ScriptName":  "",
+                                                                                    "Line":  "\u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_modules/npm/bin/npm-cli.js\" run typecheck",
+                                                                                    "PositionMessage":  "At line:1 char:1\r\n+ \u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_mo ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+                                                                                    "PSScriptRoot":  "",
+                                                                                    "PSCommandPath":  null,
+                                                                                    "InvocationName":  "\u0026",
+                                                                                    "PipelineLength":  0,
+                                                                                    "PipelinePosition":  0,
+                                                                                    "ExpectingInput":  false,
+                                                                                    "CommandOrigin":  1,
+                                                                                    "DisplayScriptPosition":  null
+                                                                                },
+                                                             "ScriptStackTrace":  "at \u003cScriptBlock\u003e, \u003cNo file\u003e: line 1\r\nat \u003cScriptBlock\u003e, C:\\Program Files\\nodejs\\npm.ps1: line 47\r\nat Invoke-AutoFix, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 599\r\nat Invoke-FullCycle, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 870\r\nat Main, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 923\r\nat \u003cScriptBlock\u003e, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 934",
+                                                             "PipelineIterationInfo":  [
+                                                                                           0,
+                                                                                           0
+                                                                                       ],
+                                                             "writeErrorStream":  true,
+                                                             "PSMessageDetails":  null
+                                                         },
+                                                         {
+                                                             "Exception":  {
+                                                                               "SerializedRemoteException":  null,
+                                                                               "SerializedRemoteInvocationInfo":  null,
+                                                                               "ErrorRecord":  {
+                                                                                                   "Exception":  {
+                                                                                                                     "Message":  "operable program or batch file.",
+                                                                                                                     "Data":  {
+
+                                                                                                                              },
+                                                                                                                     "InnerException":  null,
+                                                                                                                     "TargetSite":  null,
+                                                                                                                     "StackTrace":  null,
+                                                                                                                     "HelpLink":  null,
+                                                                                                                     "Source":  null,
+                                                                                                                     "HResult":  -2146233087
+                                                                                                                 },
+                                                                                                   "TargetObject":  null,
+                                                                                                   "CategoryInfo":  {
+                                                                                                                        "Category":  0,
+                                                                                                                        "Activity":  "",
+                                                                                                                        "Reason":  "ParentContainsErrorRecordException",
+                                                                                                                        "TargetName":  "",
+                                                                                                                        "TargetType":  ""
+                                                                                                                    },
+                                                                                                   "FullyQualifiedErrorId":  "RuntimeException",
+                                                                                                   "ErrorDetails":  null,
+                                                                                                   "InvocationInfo":  null,
+                                                                                                   "ScriptStackTrace":  null,
+                                                                                                   "PipelineIterationInfo":  [
+
+                                                                                                                             ]
+                                                                                               },
+                                                                               "WasThrownFromThrowStatement":  false,
+                                                                               "Message":  "operable program or batch file.",
+                                                                               "Data":  {
+
+                                                                                        },
+                                                                               "InnerException":  null,
+                                                                               "TargetSite":  null,
+                                                                               "StackTrace":  null,
+                                                                               "HelpLink":  null,
+                                                                               "Source":  null,
+                                                                               "HResult":  -2146233087
+                                                                           },
+                                                             "TargetObject":  "operable program or batch file.",
+                                                             "CategoryInfo":  {
+                                                                                  "Category":  0,
+                                                                                  "Activity":  "",
+                                                                                  "Reason":  "RemoteException",
+                                                                                  "TargetName":  "operable program or batch file.",
+                                                                                  "TargetType":  "String"
+                                                                              },
+                                                             "FullyQualifiedErrorId":  "NativeCommandErrorMessage",
+                                                             "ErrorDetails":  null,
+                                                             "InvocationInfo":  {
+                                                                                    "MyCommand":  {
+                                                                                                      "Path":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Extension":  ".exe",
+                                                                                                      "Definition":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Source":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Version":  {
+                                                                                                                      "Major":  24,
+                                                                                                                      "Minor":  11,
+                                                                                                                      "Build":  1,
+                                                                                                                      "Revision":  0,
+                                                                                                                      "MajorRevision":  0,
+                                                                                                                      "MinorRevision":  0
+                                                                                                                  },
+                                                                                                      "Visibility":  0,
+                                                                                                      "OutputType":  [
+                                                                                                                         {
+                                                                                                                             "Name":  "System.String",
+                                                                                                                             "Type":  "string",
+                                                                                                                             "TypeDefinitionAst":  null
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                      "Name":  "node.exe",
+                                                                                                      "CommandType":  32,
+                                                                                                      "ModuleName":  "",
+                                                                                                      "Module":  null,
+                                                                                                      "RemotingCapability":  1,
+                                                                                                      "Parameters":  null,
+                                                                                                      "ParameterSets":  null
+                                                                                                  },
+                                                                                    "BoundParameters":  {
+
+                                                                                                        },
+                                                                                    "UnboundArguments":  [
+
+                                                                                                         ],
+                                                                                    "ScriptLineNumber":  1,
+                                                                                    "OffsetInLine":  1,
+                                                                                    "HistoryId":  -1,
+                                                                                    "ScriptName":  "",
+                                                                                    "Line":  "\u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_modules/npm/bin/npm-cli.js\" run typecheck",
+                                                                                    "PositionMessage":  "At line:1 char:1\r\n+ \u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_mo ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+                                                                                    "PSScriptRoot":  "",
+                                                                                    "PSCommandPath":  null,
+                                                                                    "InvocationName":  "\u0026",
+                                                                                    "PipelineLength":  0,
+                                                                                    "PipelinePosition":  0,
+                                                                                    "ExpectingInput":  false,
+                                                                                    "CommandOrigin":  1,
+                                                                                    "DisplayScriptPosition":  null
+                                                                                },
+                                                             "ScriptStackTrace":  "at \u003cScriptBlock\u003e, \u003cNo file\u003e: line 1\r\nat \u003cScriptBlock\u003e, C:\\Program Files\\nodejs\\npm.ps1: line 47\r\nat Invoke-AutoFix, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 599\r\nat Invoke-FullCycle, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 870\r\nat Main, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 923\r\nat \u003cScriptBlock\u003e, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 934",
+                                                             "PipelineIterationInfo":  [
+                                                                                           0,
+                                                                                           0
+                                                                                       ],
+                                                             "writeErrorStream":  true,
+                                                             "PSMessageDetails":  null
+                                                         }
+                                                     ],
+                                          "status":  "ISSUES_FOUND",
+                                          "name":  "Type Checking",
+                                          "action":  "npm run typecheck",
+                                          "autoApproved":  true
+                                      },
+                                      {
+                                          "output":  [
+                                                         "",
+                                                         "\u003e real-estate-intelligence@1.0.0 lint",
+                                                         "\u003e eslint src --ext .ts",
+                                                         "",
+                                                         {
+                                                             "Exception":  {
+                                                                               "SerializedRemoteException":  null,
+                                                                               "SerializedRemoteInvocationInfo":  null,
+                                                                               "ErrorRecord":  {
+                                                                                                   "Exception":  {
+                                                                                                                     "Message":  "\u0027eslint\u0027 is not recognized as an internal or external command,",
+                                                                                                                     "Data":  {
+
+                                                                                                                              },
+                                                                                                                     "InnerException":  null,
+                                                                                                                     "TargetSite":  null,
+                                                                                                                     "StackTrace":  null,
+                                                                                                                     "HelpLink":  null,
+                                                                                                                     "Source":  null,
+                                                                                                                     "HResult":  -2146233087
+                                                                                                                 },
+                                                                                                   "TargetObject":  null,
+                                                                                                   "CategoryInfo":  {
+                                                                                                                        "Category":  0,
+                                                                                                                        "Activity":  "",
+                                                                                                                        "Reason":  "ParentContainsErrorRecordException",
+                                                                                                                        "TargetName":  "",
+                                                                                                                        "TargetType":  ""
+                                                                                                                    },
+                                                                                                   "FullyQualifiedErrorId":  "RuntimeException",
+                                                                                                   "ErrorDetails":  null,
+                                                                                                   "InvocationInfo":  null,
+                                                                                                   "ScriptStackTrace":  null,
+                                                                                                   "PipelineIterationInfo":  [
+
+                                                                                                                             ]
+                                                                                               },
+                                                                               "WasThrownFromThrowStatement":  false,
+                                                                               "Message":  "\u0027eslint\u0027 is not recognized as an internal or external command,",
+                                                                               "Data":  {
+
+                                                                                        },
+                                                                               "InnerException":  null,
+                                                                               "TargetSite":  null,
+                                                                               "StackTrace":  null,
+                                                                               "HelpLink":  null,
+                                                                               "Source":  null,
+                                                                               "HResult":  -2146233087
+                                                                           },
+                                                             "TargetObject":  "\u0027eslint\u0027 is not recognized as an internal or external command,",
+                                                             "CategoryInfo":  {
+                                                                                  "Category":  0,
+                                                                                  "Activity":  "",
+                                                                                  "Reason":  "RemoteException",
+                                                                                  "TargetName":  "\u0027eslint\u0027 is not recognized as an internal or external command,",
+                                                                                  "TargetType":  "String"
+                                                                              },
+                                                             "FullyQualifiedErrorId":  "NativeCommandError",
+                                                             "ErrorDetails":  null,
+                                                             "InvocationInfo":  {
+                                                                                    "MyCommand":  {
+                                                                                                      "Path":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Extension":  ".exe",
+                                                                                                      "Definition":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Source":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Version":  {
+                                                                                                                      "Major":  24,
+                                                                                                                      "Minor":  11,
+                                                                                                                      "Build":  1,
+                                                                                                                      "Revision":  0,
+                                                                                                                      "MajorRevision":  0,
+                                                                                                                      "MinorRevision":  0
+                                                                                                                  },
+                                                                                                      "Visibility":  0,
+                                                                                                      "OutputType":  [
+                                                                                                                         {
+                                                                                                                             "Name":  "System.String",
+                                                                                                                             "Type":  "string",
+                                                                                                                             "TypeDefinitionAst":  null
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                      "Name":  "node.exe",
+                                                                                                      "CommandType":  32,
+                                                                                                      "ModuleName":  "",
+                                                                                                      "Module":  null,
+                                                                                                      "RemotingCapability":  1,
+                                                                                                      "Parameters":  null,
+                                                                                                      "ParameterSets":  null
+                                                                                                  },
+                                                                                    "BoundParameters":  {
+
+                                                                                                        },
+                                                                                    "UnboundArguments":  [
+
+                                                                                                         ],
+                                                                                    "ScriptLineNumber":  1,
+                                                                                    "OffsetInLine":  1,
+                                                                                    "HistoryId":  -1,
+                                                                                    "ScriptName":  "",
+                                                                                    "Line":  "\u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_modules/npm/bin/npm-cli.js\" run lint",
+                                                                                    "PositionMessage":  "At line:1 char:1\r\n+ \u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_mo ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+                                                                                    "PSScriptRoot":  "",
+                                                                                    "PSCommandPath":  null,
+                                                                                    "InvocationName":  "\u0026",
+                                                                                    "PipelineLength":  0,
+                                                                                    "PipelinePosition":  0,
+                                                                                    "ExpectingInput":  false,
+                                                                                    "CommandOrigin":  1,
+                                                                                    "DisplayScriptPosition":  null
+                                                                                },
+                                                             "ScriptStackTrace":  "at \u003cScriptBlock\u003e, \u003cNo file\u003e: line 1\r\nat \u003cScriptBlock\u003e, C:\\Program Files\\nodejs\\npm.ps1: line 47\r\nat Invoke-AutoFix, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 614\r\nat Invoke-FullCycle, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 870\r\nat Main, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 923\r\nat \u003cScriptBlock\u003e, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 934",
+                                                             "PipelineIterationInfo":  [
+                                                                                           0,
+                                                                                           0
+                                                                                       ],
+                                                             "writeErrorStream":  true,
+                                                             "PSMessageDetails":  null
+                                                         },
+                                                         {
+                                                             "Exception":  {
+                                                                               "SerializedRemoteException":  null,
+                                                                               "SerializedRemoteInvocationInfo":  null,
+                                                                               "ErrorRecord":  {
+                                                                                                   "Exception":  {
+                                                                                                                     "Message":  "operable program or batch file.",
+                                                                                                                     "Data":  {
+
+                                                                                                                              },
+                                                                                                                     "InnerException":  null,
+                                                                                                                     "TargetSite":  null,
+                                                                                                                     "StackTrace":  null,
+                                                                                                                     "HelpLink":  null,
+                                                                                                                     "Source":  null,
+                                                                                                                     "HResult":  -2146233087
+                                                                                                                 },
+                                                                                                   "TargetObject":  null,
+                                                                                                   "CategoryInfo":  {
+                                                                                                                        "Category":  0,
+                                                                                                                        "Activity":  "",
+                                                                                                                        "Reason":  "ParentContainsErrorRecordException",
+                                                                                                                        "TargetName":  "",
+                                                                                                                        "TargetType":  ""
+                                                                                                                    },
+                                                                                                   "FullyQualifiedErrorId":  "RuntimeException",
+                                                                                                   "ErrorDetails":  null,
+                                                                                                   "InvocationInfo":  null,
+                                                                                                   "ScriptStackTrace":  null,
+                                                                                                   "PipelineIterationInfo":  [
+
+                                                                                                                             ]
+                                                                                               },
+                                                                               "WasThrownFromThrowStatement":  false,
+                                                                               "Message":  "operable program or batch file.",
+                                                                               "Data":  {
+
+                                                                                        },
+                                                                               "InnerException":  null,
+                                                                               "TargetSite":  null,
+                                                                               "StackTrace":  null,
+                                                                               "HelpLink":  null,
+                                                                               "Source":  null,
+                                                                               "HResult":  -2146233087
+                                                                           },
+                                                             "TargetObject":  "operable program or batch file.",
+                                                             "CategoryInfo":  {
+                                                                                  "Category":  0,
+                                                                                  "Activity":  "",
+                                                                                  "Reason":  "RemoteException",
+                                                                                  "TargetName":  "operable program or batch file.",
+                                                                                  "TargetType":  "String"
+                                                                              },
+                                                             "FullyQualifiedErrorId":  "NativeCommandErrorMessage",
+                                                             "ErrorDetails":  null,
+                                                             "InvocationInfo":  {
+                                                                                    "MyCommand":  {
+                                                                                                      "Path":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Extension":  ".exe",
+                                                                                                      "Definition":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Source":  "C:\\Program Files\\nodejs\\node.exe",
+                                                                                                      "Version":  {
+                                                                                                                      "Major":  24,
+                                                                                                                      "Minor":  11,
+                                                                                                                      "Build":  1,
+                                                                                                                      "Revision":  0,
+                                                                                                                      "MajorRevision":  0,
+                                                                                                                      "MinorRevision":  0
+                                                                                                                  },
+                                                                                                      "Visibility":  0,
+                                                                                                      "OutputType":  [
+                                                                                                                         {
+                                                                                                                             "Name":  "System.String",
+                                                                                                                             "Type":  "string",
+                                                                                                                             "TypeDefinitionAst":  null
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                      "Name":  "node.exe",
+                                                                                                      "CommandType":  32,
+                                                                                                      "ModuleName":  "",
+                                                                                                      "Module":  null,
+                                                                                                      "RemotingCapability":  1,
+                                                                                                      "Parameters":  null,
+                                                                                                      "ParameterSets":  null
+                                                                                                  },
+                                                                                    "BoundParameters":  {
+
+                                                                                                        },
+                                                                                    "UnboundArguments":  [
+
+                                                                                                         ],
+                                                                                    "ScriptLineNumber":  1,
+                                                                                    "OffsetInLine":  1,
+                                                                                    "HistoryId":  -1,
+                                                                                    "ScriptName":  "",
+                                                                                    "Line":  "\u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_modules/npm/bin/npm-cli.js\" run lint",
+                                                                                    "PositionMessage":  "At line:1 char:1\r\n+ \u0026 \"C:\\Program Files\\nodejs/node.exe\" \"C:\\Program Files\\nodejs/node_mo ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+                                                                                    "PSScriptRoot":  "",
+                                                                                    "PSCommandPath":  null,
+                                                                                    "InvocationName":  "\u0026",
+                                                                                    "PipelineLength":  0,
+                                                                                    "PipelinePosition":  0,
+                                                                                    "ExpectingInput":  false,
+                                                                                    "CommandOrigin":  1,
+                                                                                    "DisplayScriptPosition":  null
+                                                                                },
+                                                             "ScriptStackTrace":  "at \u003cScriptBlock\u003e, \u003cNo file\u003e: line 1\r\nat \u003cScriptBlock\u003e, C:\\Program Files\\nodejs\\npm.ps1: line 47\r\nat Invoke-AutoFix, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 614\r\nat Invoke-FullCycle, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 870\r\nat Main, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 923\r\nat \u003cScriptBlock\u003e, C:\\Users\\JARVIS\\OneDrive\\Documents\\Real_estate_Intelligence\\scripts\\autonomous-agent.ps1: line 934",
+                                                             "PipelineIterationInfo":  [
+                                                                                           0,
+                                                                                           0
+                                                                                       ],
+                                                             "writeErrorStream":  true,
+                                                             "PSMessageDetails":  null
+                                                         }
+                                                     ],
+                                          "status":  "ISSUES_FOUND",
+                                          "name":  "Linting Check",
+                                          "action":  "npm run lint",
+                                          "autoApproved":  true
+                                      }
+                                  ],
+                        "dryRun":  {
+                                       "IsPresent":  false
+                                   }
+                    },
+                    {
+                        "status":  "completed",
+                        "name":  "auto-heal",
+                        "recoveries":  [
+                                           {
+                                               "status":  "FAILED",
+                                               "name":  "Clean Cache \u0026 Reinstall",
+                                               "autoKept":  true
+                                           },
+                                           {
+                                               "status":  "FAILED",
+                                               "name":  "Reset \u0026 Rebuild",
+                                               "autoKept":  true
+                                           },
+                                           {
+                                               "name":  "Module Integrity Check",
+                                               "status":  "MISSING_FILES"
+                                           }
+                                       ],
+                        "validation":  {
+                                           "checks":  [
+                                                          {
+                                                              "status":  "VALID",
+                                                              "file":  "package.json",
+                                                              "type":  "json_syntax"
+                                                          },
+                                                          {
+                                                              "status":  "AVAILABLE",
+                                                              "node_version":  "v24.11.1",
+                                                              "type":  "environment",
+                                                              "npm_version":  "11.6.2"
+                                                          },
+                                                          {
+                                                              "status":  "ERRORS_FOUND",
+                                                              "error_output":  [
+                                                                                   "",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "\u001b[41m\u001b[37m                This is not the tsc command you are looking for                \u001b[0m",
+                                                                                   "\u001b[41m                                                                               \u001b[0m",
+                                                                                   "",
+                                                                                   "To get access to the TypeScript compiler, \u001b[34mtsc\u001b[0m, from the command line either:",
+                                                                                   "",
+                                                                                   "- Use \u001b[1mnpm install typescript\u001b[0m to first add TypeScript to your project \u001b[1mbefore\u001b[0m using npx",
+                                                                                   "- Use \u001b[1myarn\u001b[0m to avoid accidentally running code from un-installed packages"
+                                                                               ],
+                                                              "type":  "typescript"
+                                                          },
+                                                          {
+                                                              "status":  "MISSING",
+                                                              "node_modules_exists":  false,
+                                                              "type":  "dependencies"
+                                                          },
+                                                          {
+                                                              "dist_directory_exists":  false,
+                                                              "status":  "MISSING",
+                                                              "type":  "build_artifacts"
+                                                          },
+                                                          {
+                                                              "status":  "CONFIGURED",
+                                                              "env_example_exists":  false,
+                                                              "env_file_exists":  true,
+                                                              "type":  "environment_config"
+                                                          },
+                                                          {
+                                                              "status":  "RECORDED",
+                                                              "type":  "step_context",
+                                                              "context_keys":  "recoveryCount"
+                                                          }
+                                                      ],
+                                           "step":  "post-heal",
+                                           "timestamp":  "2025-12-11 04:00:49",
+                                           "status":  "completed_with_issues",
+                                           "issues":  [
+                                                          "TypeScript compilation errors detected",
+                                                          "node_modules directory is missing",
+                                                          "dist/ directory not found"
+                                                      ]
+                                       }
+                    },
+                    {
+                        "status":  "completed",
+                        "name":  "auto-optimize",
+                        "optimizations":  [
+                                              {
+                                                  "vulnerabilities":  0,
+                                                  "name":  "Dependency Audit",
+                                                  "status":  "SAFE"
+                                              },
+                                              {
+                                                  "status":  "OK",
+                                                  "name":  "Source File Count",
+                                                  "count":  21
+                                              }
+                                          ]
+                    },
+                    {
+                        "status":  "completed",
+                        "name":  "auto-enhance",
+                        "enhancements":  [
+                                             {
+                                                 "status":  "PRESENT",
+                                                 "name":  "Documentation",
+                                                 "recommendation":  "Consider adding comprehensive API documentation",
+                                                 "fileCount":  3
+                                             },
+                                             {
+                                                 "testCount":  0,
+                                                 "recommendation":  "Expand test suite for critical modules",
+                                                 "name":  "Test Coverage",
+                                                 "status":  "MISSING"
+                                             },
+                                             {
+                                                 "status":  "CONFIGURED",
+                                                 "name":  "Monitoring \u0026 Logging",
+                                                 "recommendation":  "Ensure winston logger is integrated in all critical paths"
+                                             },
+                                             {
+                                                 "status":  "PRESENT",
+                                                 "readmePresent":  true,
+                                                 "name":  "API Documentation"
+                                             }
+                                         ]
+                    }
+                ],
+    "timestamp":  "20251211_035517",
+    "hostname":  "JARVIS-COMMAND"
+}

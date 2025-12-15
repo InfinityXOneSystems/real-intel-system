@@ -1,0 +1,1 @@
+Get-ScheduledTask -TaskName "InfinityXOS Omega Daemon" -ErrorAction SilentlyContinue | Format-List *; Get-ScheduledTaskInfo -TaskName "InfinityXOS Omega Daemon" -ErrorAction SilentlyContinue | Format-List *

@@ -1,0 +1,5 @@
+﻿FROM python:3.11-slim
+WORKDIR /app
+RUN pip install requests
+COPY crawler.py .
+CMD ["python","crawler.py"]

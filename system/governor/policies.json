@@ -1,0 +1,39 @@
+{
+    "version":  "SCF_v1",
+    "policies":  [
+                     {
+                         "name":  "default_no_destructive",
+                         "enforce":  {
+                                         "destructive_ops":  false
+                                     },
+                         "when":  {
+                                      "mode":  [
+                                                   "normal",
+                                                   "safe"
+                                               ]
+                                  }
+                     },
+                     {
+                         "name":  "safe_mode_caps",
+                         "enforce":  {
+                                         "network_ingest":  false
+                                     },
+                         "when":  {
+                                      "mode":  [
+                                                   "safe"
+                                               ]
+                                  }
+                     },
+                     {
+                         "name":  "halt_all",
+                         "enforce":  {
+                                         "halt":  true
+                                     },
+                         "when":  {
+                                      "mode":  [
+                                                   "halt"
+                                               ]
+                                  }
+                     }
+                 ]
+}
