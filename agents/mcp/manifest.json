@@ -16,6 +16,8 @@
                       "port":  8080
                   },
     "endpoints":  {
-                      "omni":  "/api/dispatch"
+                      "omni":  "/api/dispatch",
+                      "ready":  "/ready",
+                      "execute":  "/execute"
                   }
 }

@@ -1,13 +1,17 @@
-from flask import Flask, request, jsonify
-from router.dispatch import dispatch
+﻿from flask import Flask, request, jsonify
+from orchestrator.core import ready, execute
 
 app = Flask(__name__)
 
-@app.route("/api/dispatch", methods=["POST"])
-def api_dispatch():
-    return dispatch(request.json)
+@app.route("/ready", methods=["GET"])
+def api_ready():
+    return jsonify(ready())
 
-@app.route("/health")
+@app.route("/execute", methods=["POST"])
+def api_execute():
+    return jsonify(execute(request.json))
+
+@app.route("/health", methods=["GET"])
 def health():
     return "ok", 200
 
