@@ -1,0 +1,3 @@
+[submodule "vision-cortex"]
+	path = vision-cortex
+	url = https://github.com/InfinityXOneSystems/vision_cortex.git
