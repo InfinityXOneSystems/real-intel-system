@@ -28,3 +28,5 @@ scripts/inspect-*
 scripts/schaffold/
 _foundation_backup_*
 templates and docs.zip
+agents/mcp/*
+!agents/mcp/manifest.json
