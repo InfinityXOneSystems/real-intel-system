@@ -1,7 +1,9 @@
-﻿from fastapi import FastAPI
-import time
+﻿import time
+
+from fastapi import FastAPI
 
 app = FastAPI()
+
 
 @app.get("/health")
 def health():

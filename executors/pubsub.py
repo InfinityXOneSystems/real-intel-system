@@ -1,11 +1,14 @@
-﻿from google.cloud import pubsub_v1
-import json, os
+﻿import json
+import os
+
+from google.cloud import pubsub_v1
 
 PROJECT_ID = os.getenv("GCP_PROJECT")
-TOPIC_ID   = os.getenv("PUBSUB_TOPIC", "rei-execute")
+TOPIC_ID = os.getenv("PUBSUB_TOPIC", "rei-execute")
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(PROJECT_ID, TOPIC_ID)
+
 
 def publish(payload):
     data = json.dumps(payload).encode("utf-8")

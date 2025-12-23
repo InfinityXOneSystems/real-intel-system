@@ -1,5 +1,8 @@
-﻿from fastapi import FastAPI
-import subprocess, json, os
+﻿import json
+import os
+import subprocess
+
+from fastapi import FastAPI
 
 app = FastAPI()
 

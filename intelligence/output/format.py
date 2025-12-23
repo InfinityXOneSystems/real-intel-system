@@ -7,7 +7,7 @@
             "Name": l["name"],
             "Loan Type": l["loan_type"],
             "Estimated Amount": l["estimated_loan_need"],
-            "Score": l["score"]
+            "Score": l["score"],
         }
         for l in leads
     ]

@@ -1,5 +1,6 @@
 ﻿import json
 
+
 def register_all():
     with open("bootstrap/config.json") as f:
         cfg = json.load(f)

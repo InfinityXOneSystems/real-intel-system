@@ -5,6 +5,7 @@ Goal:
 Identify high-intent loan prospects using public signals.
 """
 
+
 def generate_leads(payload):
     """
     Expected payload:
@@ -27,12 +28,8 @@ def generate_leads(payload):
             "estimated_loan_need": 450000,
             "score": 0.82,
             "region": region,
-            "loan_type": loan_type
+            "loan_type": loan_type,
         }
     ]
 
-    return {
-        "vertical": "loan_company",
-        "count": len(leads),
-        "leads": leads
-    }
+    return {"vertical": "loan_company", "count": len(leads), "leads": leads}

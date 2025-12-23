@@ -1,16 +1,17 @@
-﻿from googleapiclient.discovery import build
+﻿import os
+
 from google.oauth2 import service_account
-import os
+from googleapiclient.discovery import build
 
 SCOPES = [
     "https://www.googleapis.com/auth/gmail.send",
     "https://www.googleapis.com/auth/calendar",
 ]
 
+
 def handle_workspace(payload):
     creds = service_account.Credentials.from_service_account_file(
-        os.getenv("GOOGLE_APPLICATION_CREDENTIALS"),
-        scopes=SCOPES
+        os.getenv("GOOGLE_APPLICATION_CREDENTIALS"), scopes=SCOPES
     )
 
     action = payload.get("action")

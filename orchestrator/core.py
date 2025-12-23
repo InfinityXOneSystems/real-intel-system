@@ -1,10 +1,9 @@
 ﻿from router.dispatch import dispatch
 
+
 def ready():
-    return {
-        "status": "ready",
-        "orchestrator": "active"
-    }
+    return {"status": "ready", "orchestrator": "active"}
+
 
 def execute(payload):
     if "action" not in payload:
@@ -12,7 +11,4 @@ def execute(payload):
 
     result = dispatch(payload)
 
-    return {
-        "orchestrator": "executed",
-        "result": result
-    }
+    return {"orchestrator": "executed", "result": result}
