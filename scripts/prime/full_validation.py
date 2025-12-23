@@ -1,9 +1,14 @@
-﻿import json, time, subprocess, pathlib, sys
+﻿import json
+import pathlib
+import subprocess
+import sys
+import time
 
 out_md = pathlib.Path("docs/system/FINAL_VALIDATION_REPORT.md")
 out_json = pathlib.Path("docs/system/FINAL_VALIDATION_REPORT.json")
 
-report = {"status": "ok","steps":[]}
+report = {"status": "ok", "steps": []}
+
 
 def run(cmd):
     r = subprocess.run(cmd, shell=True)
@@ -11,6 +16,7 @@ def run(cmd):
     if r.returncode != 0:
         report["status"] = "failed"
         sys.exit(1)
+
 
 run("docker compose build")
 run("docker compose up -d")

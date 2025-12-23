@@ -2,10 +2,12 @@
 
 app = FastAPI()
 
+
 @app.get("/")
 def root():
-    return { "service": "memory", "status": "online" }
+    return {"service": "memory", "status": "online"}
+
 
 @app.get("/health")
 def health():
-    return { "ok": True }
+    return {"ok": True}

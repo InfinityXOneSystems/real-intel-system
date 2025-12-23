@@ -1,4 +1,6 @@
-﻿import json, pathlib
+﻿import json
+import pathlib
+
 pathlib.Path("docs/system/RISK_GATE_REPORT.json").write_text(
-  json.dumps({"risk":"SAFE"}, indent=2)
+    json.dumps({"risk": "SAFE"}, indent=2)
 )
