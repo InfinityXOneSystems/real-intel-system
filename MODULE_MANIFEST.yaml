@@ -1,0 +1,6 @@
+# Module Manifest
+id: real-estate-intelligence
+path: services\real-estate-intelligence
+language: python
+entrypoints:
+files_count: 434

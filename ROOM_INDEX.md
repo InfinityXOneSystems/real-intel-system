@@ -1,0 +1,65 @@
+# Room Index for real-estate-intelligence
+
+Path: services\real-estate-intelligence
+
+## Top-level files and folders
+
+- $null
+- .dockerignore
+- .env.example
+- .env.sample
+- .eslintrc.json
+- .foundation_status.json
+- .genesis.json
+- .git
+- .gitattributes
+- .github
+- .gitignore
+- .gitmodules
+- .infinityxos_root
+- .pytest_cache
+- .vscode
+- _foundation_backup_20251215-111350
+- _index_snapshot.txt
+- agents
+- auto-docs-sync
+- AUTO_BOOT.ps1
+- AUTO_BOOT_LLM.ps1
+- autonomous
+- autonomy
+- AUTONOMY_DISABLED
+- AUTONOMY_ENABLED
+- AUTONOMY_LEDGER.md
+- bootstrap
+- cloudrun.crawler.yaml
+- cloudrun.yaml
+- CODE_SNAPSHOT.txt
+- desktop.ini
+- doc-evolution-system
+- docker-compose.yml
+- Dockerfile
+- docs
+- executors
+- frontend
+- gateway
+- helix
+- ingest_test.json
+- intelligence
+- llm
+- logs
+- MODULE_MANIFEST.yaml
+- orchestrator
+- platform-validator.ps1
+- pyproject.toml
+- README.md
+- reports
+- ROOM_INDEX.md
+- router
+- RUNTIME.md
+- scripts
+- services
+- taxonomy_contract
+- templates and docs
+- templates and docs.zip
+- vision-cortex
+- work flow

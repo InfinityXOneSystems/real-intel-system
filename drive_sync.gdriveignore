@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+*.lock
+*.pem
+*.p12
+*.key
+*.zip
+*.tar.gz
+*.tgz
+*.exe
+*.dll
+logs/
+cache/
