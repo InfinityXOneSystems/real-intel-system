@@ -7,8 +7,8 @@ API:
 - score_record(record) -> dict with 'score' (float 0..1) and 'explanation' (str)
 - score_records(records) -> list of dicts
 """
-from typing import Dict, List, Tuple
 
+from typing import Dict, List, Tuple
 
 KEYWORD_BOOST = [
     "foreclosure",

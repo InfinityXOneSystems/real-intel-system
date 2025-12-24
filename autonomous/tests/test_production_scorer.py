@@ -1,4 +1,5 @@
-from services.real_estate_intelligence.autonomous.production_scorer import score_record, score_records
+from services.real_estate_intelligence.autonomous.production_scorer import (
+    score_record, score_records)
 
 
 def test_score_simple_keywords():

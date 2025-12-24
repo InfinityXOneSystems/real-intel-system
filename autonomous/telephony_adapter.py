@@ -1,5 +1,5 @@
-import os
 import logging
+import os
 from typing import Optional
 
 try:
@@ -10,7 +10,9 @@ except Exception:
 logger = logging.getLogger(__name__)
 
 
-def make_call_safe(to_number: str, from_number: Optional[str] = None, dry_run: bool = True) -> dict:
+def make_call_safe(
+    to_number: str, from_number: Optional[str] = None, dry_run: bool = True
+) -> dict:
     """Make a call using the quickstart helper with safety gating.
 
     Returns a dict with keys: success(bool), sid(str|None), error(str|None), dry_run(bool)
@@ -28,16 +30,27 @@ def make_call_safe(to_number: str, from_number: Optional[str] = None, dry_run: b
             logger.exception("Call via SDK failed, will attempt REST fallback")
 
     try:
-        from services.real_estate_intelligence.autonomous.secrets_helper import get_infinityxone_credentials
-        from services.real_estate_intelligence.autonomous.telephony_client import make_call
+        from services.real_estate_intelligence.autonomous.secrets_helper import \
+            get_infinityxone_credentials
+        from services.real_estate_intelligence.autonomous.telephony_client import \
+            make_call
 
         creds = get_infinityxone_credentials()
-        account_sid = creds.get('twilio_account_sid') or creds.get('TWILIO_ACCOUNT_SID')
-        auth_token = creds.get('twilio_auth_token') or creds.get('TWILIO_AUTH_TOKEN')
-        fromnum = from_number or creds.get('twilio_from_number') or creds.get('TWILIO_FROM_NUMBER')
+        account_sid = creds.get("twilio_account_sid") or creds.get("TWILIO_ACCOUNT_SID")
+        auth_token = creds.get("twilio_auth_token") or creds.get("TWILIO_AUTH_TOKEN")
+        fromnum = (
+            from_number
+            or creds.get("twilio_from_number")
+            or creds.get("TWILIO_FROM_NUMBER")
+        )
 
         if not (account_sid and auth_token and fromnum):
-            return {"success": False, "sid": None, "error": "twilio creds or from number missing", "dry_run": False}
+            return {
+                "success": False,
+                "sid": None,
+                "error": "twilio creds or from number missing",
+                "dry_run": False,
+            }
 
         return make_call(account_sid, auth_token, to_number, fromnum)
     except Exception as e:
