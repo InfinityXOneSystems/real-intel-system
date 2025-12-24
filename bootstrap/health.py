@@ -1,5 +1,2 @@
 ﻿def readiness():
-    return {
-        "status": "ready",
-        "plane": "active"
-    }
+    return {"status": "ready", "plane": "active"}

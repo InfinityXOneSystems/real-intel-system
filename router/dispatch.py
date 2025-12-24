@@ -1,6 +1,7 @@
-﻿from executors.pubsub import publish
+﻿from executors.crawler import handle_crawler
+from executors.pubsub import publish
 from executors.workspace import handle_workspace
-from executors.crawler import handle_crawler
+
 
 def dispatch(payload):
     action = payload.get("action")

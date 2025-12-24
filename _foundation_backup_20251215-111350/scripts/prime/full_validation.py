@@ -1,4 +1,8 @@
-﻿import json, time, subprocess, pathlib, sys
+﻿import json
+import pathlib
+import subprocess
+import sys
+import time
 
 out_md = pathlib.Path("docs/system/FINAL_VALIDATION_REPORT.md")
 out_json = pathlib.Path("docs/system/FINAL_VALIDATION_REPORT.json")
